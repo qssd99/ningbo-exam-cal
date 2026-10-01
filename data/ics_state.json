@@ -1,506 +1,611 @@
 {
- "99d030ac2d58c67d6fd8f446ea5b9b043be742ba@ningbo-exam-cal": {
+ "f876a0f17c01aabae83425105cf510431d5e32c5@ningbo-exam-cal": {
   "fp": "1a422522ff29c7363627659b80acfedeb1018610",
   "seq": 1,
   "stage": "报名",
-  "region": "高新区"
+  "region": "高新区",
+  "start": "20260305T090000"
  },
  "e1a6d16df261909ec71bff92f5554da7ae2db2a9@ningbo-exam-cal": {
   "fp": "deb7ec5c052b8a0bd25fccaf019d1affbda244d1",
   "seq": 1,
   "stage": "资格初审",
-  "region": "高新区"
+  "region": "高新区",
+  "start": "20260307T000000"
  },
- "6d101eece990b2d4bdd8fdeda386257812424c3e@ningbo-exam-cal": {
+ "4c81ed6508b1c52b9a11fb16c1587f25e479f360@ningbo-exam-cal": {
   "fp": "9ec39d7f021f61a9e30b62c0477dfb1a73885f8c",
   "seq": 1,
   "stage": "报名",
-  "region": "市属"
+  "region": "市属",
+  "start": "20260313T090000"
  },
  "1a5abd65ceadbc3e56c60156e7be9ffd61ed94f2@ningbo-exam-cal": {
   "fp": "58cf3bade0cf9a1b4c19725b9515313845b01a46",
   "seq": 1,
   "stage": "现场报名",
-  "region": "高新区"
+  "region": "高新区",
+  "start": "20260317T192000"
  },
  "10daff499a5c5d235ef24b23dbc26266765c28b3@ningbo-exam-cal": {
   "fp": "1a110e575a8de8cb6c2c55da97c1bbb19dd44446",
   "seq": 1,
   "stage": "资格初审",
-  "region": "市属"
+  "region": "市属",
+  "start": "20260320T000000"
  },
- "dfde98d944bcf55bd7c2fcd830384c56b41b39dc@ningbo-exam-cal": {
-  "fp": "6bf45dece06696360f9d9f417ac5d179c955370b",
-  "seq": 1,
-  "stage": "再次报名",
-  "region": "市属"
- },
- "0840cc4412133377dffa37b891d5f7e095ef1477@ningbo-exam-cal": {
+ "ba8462c109d9b8de431136fed768427efbc1f77b@ningbo-exam-cal": {
   "fp": "1a4837f63612e106e00cfe200e2b78270ffa2f05",
   "seq": 1,
   "stage": "报名",
-  "region": "镇海区"
+  "region": "镇海区",
+  "start": "20260324T090000"
  },
- "85456c72c310263a79b937f4a8adf69537269bef@ningbo-exam-cal": {
+ "b26b5b496445f72d40929187005068b6c10a0270@ningbo-exam-cal": {
+  "fp": "6bf45dece06696360f9d9f417ac5d179c955370b",
+  "seq": 1,
+  "stage": "再次报名",
+  "region": "市属",
+  "start": "20260324T090000"
+ },
+ "bebf23136676e8d68b39655074c0de47192a5909@ningbo-exam-cal": {
   "fp": "43a48c9a202ca5ef3248cdc1db972062f2b0a18c",
   "seq": 1,
   "stage": "报名",
-  "region": "镇海区"
+  "region": "镇海区",
+  "start": "20260324T090000"
  },
- "7d7ef44c0a638061019d5eb87ea0268e9006d494@ningbo-exam-cal": {
+ "ed203751e8a7a0dd27b62d015bd53e0359685f17@ningbo-exam-cal": {
   "fp": "88dd730f89a57eed14fee89ab776f1ad9182f6bf",
   "seq": 1,
   "stage": "缴费确认",
-  "region": "市属"
+  "region": "市属",
+  "start": "20260325T090000"
  },
- "64d5f6d3fe231e661c187d0985f0abf3a4c5af89@ningbo-exam-cal": {
+ "794526e269441b6f2ea99ce8809119d024581a08@ningbo-exam-cal": {
   "fp": "a80a7e2219b481e1be9365c87a782b74badd82ce",
   "seq": 1,
   "stage": "再次报名",
-  "region": "高新区"
+  "region": "高新区",
+  "start": "20260325T090000"
  },
- "5008d95bf3ef73766debb3b933d4da79c5ff2e86@ningbo-exam-cal": {
+ "83ae042bd7d2dbc8500a00efc68a26f95fecdfe7@ningbo-exam-cal": {
   "fp": "23a31b2e987ece11f7b3fd66f282572033e4a0ae",
   "seq": 1,
   "stage": "再次报名",
-  "region": "镇海区"
+  "region": "镇海区",
+  "start": "20260401T090000"
  },
- "f8868afb05fc62f25529408f11515c3c76d45733@ningbo-exam-cal": {
+ "5aa7ae4846851c70bc7b933bd876637f8fd68084@ningbo-exam-cal": {
   "fp": "f37839107738172c47eab0dcf5d0b7c747d669ea",
   "seq": 1,
   "stage": "再次报名",
-  "region": "镇海区"
+  "region": "镇海区",
+  "start": "20260401T090000"
  },
- "d5bc8f24d2dc6a06de53bac8536570d41ee8f8ab@ningbo-exam-cal": {
+ "5ce18355697d4790ad5ff2600bc2376455a5327a@ningbo-exam-cal": {
   "fp": "d04439af5e5024d74fb588bb0e1f71d28df376e9",
   "seq": 1,
   "stage": "缴费确认",
-  "region": "镇海区"
+  "region": "镇海区",
+  "start": "20260402T090000"
  },
- "10ad705ddbc86494bcfef9cb1650d25d4c2eb103@ningbo-exam-cal": {
+ "d8eca57834f0bb95bd70f03f93636e174e48938c@ningbo-exam-cal": {
   "fp": "87b0b42ede0c3ede965d51f864c06a4e87c99fe8",
   "seq": 1,
   "stage": "缴费确认",
-  "region": "镇海区"
+  "region": "镇海区",
+  "start": "20260402T090000"
  },
- "6d704b5a0356e7432041b5ec858153436802b9f8@ningbo-exam-cal": {
+ "55d3183d2f8dfaed7f34809846478ea245123369@ningbo-exam-cal": {
   "fp": "568e7d92b49d10fb549f6b5d52385f777a2a95fd",
   "seq": 1,
   "stage": "准考证",
-  "region": "镇海区"
+  "region": "镇海区",
+  "start": "20260403T090000"
  },
- "fdcf88df81d0b7502d55769701bdf91c3464a039@ningbo-exam-cal": {
+ "bae63928214eb0655b7a9e58e5a8cfee2a4a66f7@ningbo-exam-cal": {
   "fp": "2c1c58ca5eb0d271222cd9466d241e786986d18e",
   "seq": 1,
   "stage": "准考证",
-  "region": "高新区"
+  "region": "高新区",
+  "start": "20260406T090000"
  },
- "44d4c87d38c042cd5edc8c75d54af32a5d2ddeac@ningbo-exam-cal": {
-  "fp": "57378f80bb70561e843153a66e410620f04871b6",
-  "seq": 1,
-  "stage": "报名",
-  "region": "宁海县"
- },
- "b412fe415436c76021db607081ffcc6ff169bf01@ningbo-exam-cal": {
+ "598297bbd77d059d33158e54faf45eb8f8e327be@ningbo-exam-cal": {
   "fp": "ea5d4ab2ea99067fc9e7e46d662486706b430d5d",
   "seq": 1,
   "stage": "报名",
-  "region": "鄞州区"
+  "region": "鄞州区",
+  "start": "20260407T090000"
  },
- "45f5462d44a062595611a97b5e55e92aa1f03067@ningbo-exam-cal": {
-  "fp": "8305f9e56e0ff36c86003f697ad62932044e7aaf",
+ "3d94ae988437d7b1b5807b041eb4d32c1c895234@ningbo-exam-cal": {
+  "fp": "57378f80bb70561e843153a66e410620f04871b6",
   "seq": 1,
-  "stage": "资格初审",
-  "region": "宁海县"
+  "stage": "报名",
+  "region": "宁海县",
+  "start": "20260407T090000"
  },
- "bf1711f2a5f47e6814651d89b03a2f53893ff112@ningbo-exam-cal": {
+ "52e37c1b097c6be910dd896e0076490ff7e73b26@ningbo-exam-cal": {
   "fp": "17c573707397e3c3c44d0807d37a3178e96c403a",
   "seq": 1,
   "stage": "准考证",
-  "region": "市属"
+  "region": "市属",
+  "start": "20260408T090000"
+ },
+ "8732ad82b900395f29f9a771b81b494a97711ebc@ningbo-exam-cal": {
+  "fp": "8305f9e56e0ff36c86003f697ad62932044e7aaf",
+  "seq": 1,
+  "stage": "资格初审",
+  "region": "宁海县",
+  "start": "20260408T090000"
  },
  "44aec06f5ed8037ee052ab939531f6a0fc6d01f5@ningbo-exam-cal": {
   "fp": "db08edf2f4ab8f346592e3d609816b67aedab283",
   "seq": 1,
   "stage": "笔试",
-  "region": "镇海区"
+  "region": "镇海区",
+  "start": "20260408T123900"
  },
- "996565e046837edcc8413eac763eb0021b44bd73@ningbo-exam-cal": {
+ "932d9a0bdbdf9f6848b77dbf91236718f6f8fe96@ningbo-exam-cal": {
   "fp": "2ff829816889967d90d412d389a91a5a77b7a27d",
   "seq": 1,
   "stage": "资格复审",
-  "region": "镇海区"
+  "region": "镇海区",
+  "start": "20260408T124100"
  },
  "02250862e87c9137869d6bdafce6d7b49d157278@ningbo-exam-cal": {
   "fp": "10cecc0552ab7a2cc2e83c0d13c15ee803f253da",
   "seq": 1,
   "stage": "笔试出分",
-  "region": "镇海区"
+  "region": "镇海区",
+  "start": "20260408T124200"
  },
  "a8af75736faff8ed6035951209581f9c017b0b34@ningbo-exam-cal": {
   "fp": "115c928c0211e883fb96d2f5d293f8ab984a137a",
   "seq": 1,
   "stage": "面试",
-  "region": "镇海区"
+  "region": "镇海区",
+  "start": "20260409T123800"
  },
  "9bb223e84b309fcb5b7785d31f4d8a8aef89a0e1@ningbo-exam-cal": {
   "fp": "1a0f165576e782d5a1a8d6517e3133b5384bec5f",
   "seq": 1,
   "stage": "笔试",
-  "region": "市属"
+  "region": "市属",
+  "start": "20260411T090000"
  },
  "36d0d2b0a7bffee76a44c40479b32bb50e5ac0d5@ningbo-exam-cal": {
   "fp": "d36d84778a2fc1f65cffca8be7f800e9f5ce1813",
   "seq": 1,
   "stage": "笔试",
-  "region": "高新区"
+  "region": "高新区",
+  "start": "20260411T090000"
  },
- "ab2a1198a2de9680ee58b1026773032d74590ad2@ningbo-exam-cal": {
+ "bed300a2ddd3bd0a0277f847ac52f7cf0252daf6@ningbo-exam-cal": {
   "fp": "b9a37015c1c18043c350fd4686ce0b118eb60c83",
   "seq": 1,
   "stage": "资格初审",
-  "region": "鄞州区"
+  "region": "鄞州区",
+  "start": "20260414T090000"
  },
- "60c2483ce77dd140d40560823754816093f88d46@ningbo-exam-cal": {
+ "14d1d028ac785949adda0117d6c62aa2e18cae90@ningbo-exam-cal": {
   "fp": "5fdea72a8364440cdbe7f69455888d5ac0f75538",
   "seq": 1,
   "stage": "再次报名",
-  "region": "宁海县"
+  "region": "宁海县",
+  "start": "20260415T090000"
  },
- "f19eae866622406988492749692a6a4f93e6334c@ningbo-exam-cal": {
-  "fp": "b2e637c4c51fae5aa8f49ef15b34327a05a7a044",
-  "seq": 1,
-  "stage": "缴费确认",
-  "region": "宁海县"
- },
- "43b5e2209cc7036e9fdc0c15a9df81d6b2cd744e@ningbo-exam-cal": {
+ "91f271cd0b89a7ac6c7b6e0d393d264ed0eb08eb@ningbo-exam-cal": {
   "fp": "bbe2ee993b181dfa48121dbcea9f430913e57823",
   "seq": 1,
   "stage": "再次报名",
-  "region": "鄞州区"
+  "region": "鄞州区",
+  "start": "20260416T090000"
  },
- "0cfa87c059a5f32e1cd7f3aa07f0664224557032@ningbo-exam-cal": {
+ "2dc6e2438fe30f1fd744e2f696d49400184d6610@ningbo-exam-cal": {
+  "fp": "b2e637c4c51fae5aa8f49ef15b34327a05a7a044",
+  "seq": 1,
+  "stage": "缴费确认",
+  "region": "宁海县",
+  "start": "20260416T090000"
+ },
+ "bf8a096d1c3951def1bfb2b6e33dfeb823b31356@ningbo-exam-cal": {
   "fp": "5ad75cdacf857024cd0d5220f6a7188dc3fc4c6d",
   "seq": 1,
   "stage": "缴费确认",
-  "region": "鄞州区"
+  "region": "鄞州区",
+  "start": "20260417T090000"
  },
- "e9ef9f59e31336bcb0e332121dbae8247fbec1af@ningbo-exam-cal": {
+ "381dc533016fcf9244d01441804b179777b83ea7@ningbo-exam-cal": {
   "fp": "0059414668f41f1923ed956bf1d70f8d98f120cf",
   "seq": 1,
   "stage": "准考证",
-  "region": "宁海县"
+  "region": "宁海县",
+  "start": "20260422T090000"
  },
- "45815bcd86b7dad0cb2b365eaf79e60188730e78@ningbo-exam-cal": {
+ "6dbb232d7a124d91f2963c220693d828143df05e@ningbo-exam-cal": {
   "fp": "7cf3c3d4766c5578ee26fac919f0f6340a4813e2",
   "seq": 1,
   "stage": "报名",
-  "region": "象山县"
+  "region": "象山县",
+  "start": "20260422T090000"
  },
- "e0d9e0a61e5cf07375cac0117ad3a9557eb90727@ningbo-exam-cal": {
+ "ec1f6fb0a4029c531db493e991a4dcf2698e9de8@ningbo-exam-cal": {
   "fp": "15550f18519067bc9c646f1c5572758eccb97e80",
   "seq": 1,
   "stage": "资格初审",
-  "region": "象山县"
+  "region": "象山县",
+  "start": "20260422T090000"
  },
  "267db8e2950d229e0306f2619765dd60a2779c9b@ningbo-exam-cal": {
   "fp": "9045dcdca2e61dbcdd7204797fd551eea7f9bbe6",
   "seq": 1,
   "stage": "笔试出分",
-  "region": "高新区"
+  "region": "高新区",
+  "start": "20260422T151600"
  },
- "4da316c0e85928f930e0f9fe8958973270e39254@ningbo-exam-cal": {
+ "f6a4c34f4f5cdf5a3f50ca441c8be366b5fec46e@ningbo-exam-cal": {
   "fp": "63b4ff4aec0155c352193c06eba50989f9273814",
   "seq": 1,
   "stage": "准考证",
-  "region": "鄞州区"
+  "region": "鄞州区",
+  "start": "20260423T090000"
  },
- "325a7a2ab9fdb723171b4cd4dff24f6f63d254d5@ningbo-exam-cal": {
+ "bf63233400cc907fcfa313749ed391ad3a2464c6@ningbo-exam-cal": {
   "fp": "1a40a612adc7843c21d5b576056d3d829759e7c1",
   "seq": 1,
   "stage": "面试",
-  "region": "高新区"
+  "region": "高新区",
+  "start": "20260424T151800"
  },
  "107631a7d9aecb6fedfae3ba53dd8e7a312678f0@ningbo-exam-cal": {
   "fp": "50776ebd54d412aa8e605690250bef8f71830a8b",
   "seq": 1,
   "stage": "笔试出分",
-  "region": "市属"
+  "region": "市属",
+  "start": "20260424T205000"
+ },
+ "325a7a2ab9fdb723171b4cd4dff24f6f63d254d5@ningbo-exam-cal": {
+  "fp": "6a984dfb5d002229ae938126e4ced54fdaa75390",
+  "seq": 1,
+  "stage": "面试",
+  "region": "高新区",
+  "start": "20260425T000000"
  },
  "2d2e9d33106c4a8231c4ad70eeca1c27c404e6e1@ningbo-exam-cal": {
   "fp": "6dd33a33e71b7f71d5a7dfe1bd1d97569c0d957d",
   "seq": 1,
   "stage": "笔试",
-  "region": "鄞州区"
+  "region": "鄞州区",
+  "start": "20260425T090000"
  },
  "9012c08a3adbd16ad999a29fa3f8ffd9f26bdff7@ningbo-exam-cal": {
   "fp": "6ab1a706f749139f2706ca3c835cc3c81b959f36",
   "seq": 1,
   "stage": "资格复审",
-  "region": "高新区"
+  "region": "高新区",
+  "start": "20260425T151600"
  },
  "764faf2449aae52ca44b8aad11231f15bfbd6eb1@ningbo-exam-cal": {
   "fp": "57c7f9bd807c3c0d37050e610c155bc8b448c006",
   "seq": 1,
   "stage": "笔试",
-  "region": "宁海县"
+  "region": "宁海县",
+  "start": "20260425T194400"
  },
- "0b599345ae22253e1f55cd6dbd1a236df6ba1bfc@ningbo-exam-cal": {
+ "48f3fd7f8ad97aae2091b1a664365df491ddd26e@ningbo-exam-cal": {
   "fp": "e60fff289c4daa64f8f8e392b5f2ac9f2d6455a9",
   "seq": 1,
   "stage": "准考证",
-  "region": "镇海区"
+  "region": "镇海区",
+  "start": "20260428T093000"
  },
- "276b4f75d08179af8714b74ac4b3779175723ecf@ningbo-exam-cal": {
+ "6a63fd97107c143e331b2f7b4848236763cbd0ab@ningbo-exam-cal": {
   "fp": "ad1dba3fbe366e82600a0ef790fa9f4c84d1775f",
   "seq": 1,
   "stage": "再次报名",
-  "region": "象山县"
+  "region": "象山县",
+  "start": "20260430T090000"
  },
- "7a651295e421efd06a00ba03664895200c87dc46@ningbo-exam-cal": {
+ "816223c65a1a5c9625cc76ecbeed6b609e4a9755@ningbo-exam-cal": {
   "fp": "c04db9cdefd6cc06821791cec3782ffffc2ee3db",
   "seq": 1,
   "stage": "缴费确认",
-  "region": "象山县"
+  "region": "象山县",
+  "start": "20260506T090000"
  },
  "b0a6ea90c288a123e1b2412332ec330ea628bca3@ningbo-exam-cal": {
   "fp": "3bc6845410dc2c1a1d9aeae09f26e5a5340ab958",
   "seq": 1,
   "stage": "资格复审",
-  "region": "市属"
+  "region": "市属",
+  "start": "20260507T205000"
  },
  "67f9fb0e53064473bfdcabb6f909e8c5330aa59f@ningbo-exam-cal": {
   "fp": "81e7081a5e1c203d372a19e775653a21940db392",
   "seq": 1,
   "stage": "笔试出分",
-  "region": "宁海县"
+  "region": "宁海县",
+  "start": "20260508T162400"
  },
  "55116270ecb36fa8bf12af2b7787071e6010b20b@ningbo-exam-cal": {
   "fp": "210c69a358b27dbee8b1ceb489e307d0157bdfff",
   "seq": 1,
   "stage": "笔试",
-  "region": "镇海区"
+  "region": "镇海区",
+  "start": "20260510T090000"
  },
- "c3a9b8e113ae7573061c4bb5f92d4f7b74671529@ningbo-exam-cal": {
+ "9c61013fc1e220452efb80efd0f5188dffa1a375@ningbo-exam-cal": {
   "fp": "03e132b7172fafeed255db8842c950d310c32b4c",
   "seq": 1,
   "stage": "报名",
-  "region": "海曙区"
+  "region": "海曙区",
+  "start": "20260511T090000"
  },
- "91fa2dc2f15336462a00e66580bfb56ec253d466@ningbo-exam-cal": {
+ "22072def289db8d15f70a00aca1abb79046e20a3@ningbo-exam-cal": {
   "fp": "6d74948f162e889bb348e5c6eb446155cb2e1cd7",
   "seq": 1,
   "stage": "准考证",
-  "region": "象山县"
+  "region": "象山县",
+  "start": "20260514T090000"
  },
  "bc59a166979ead3cee6175027e63dba05c85bc18@ningbo-exam-cal": {
   "fp": "c591908bbf7d5fb4f2f7c281f6499e60fa9fd38b",
   "seq": 1,
   "stage": "笔试",
-  "region": "象山县"
+  "region": "象山县",
+  "start": "20260516T000000"
  },
- "73d5cd17c1f9c5259b85bb98adc52fe346e7b8c1@ningbo-exam-cal": {
+ "a28c1244d5cb1bea8130f77cf89a27c4760b9cfb@ningbo-exam-cal": {
   "fp": "3aec2c7bc5a2abece3aafd40e52e8bdfc26cd78e",
   "seq": 1,
   "stage": "资格初审",
-  "region": "海曙区"
+  "region": "海曙区",
+  "start": "20260516T090000"
  },
- "04174d3c7ab241869f151a59fb25856712edae74@ningbo-exam-cal": {
+ "0bcbbfd09e73998f5756df0ab70e7165e89f8e40@ningbo-exam-cal": {
   "fp": "ae049d93544271a404d535756fa8fa1c42206fd6",
   "seq": 1,
   "stage": "资格复审",
-  "region": "宁海县"
+  "region": "宁海县",
+  "start": "20260516T162500"
  },
- "261004883cf73cb3d41f4c8f58edbe3fbecf7870@ningbo-exam-cal": {
+ "94db7a8168f8ff31e4218817963fa9adc999d749@ningbo-exam-cal": {
   "fp": "375eacb7ab1e3d9e1d9564da5bbb7ccc2a9214ce",
   "seq": 1,
   "stage": "面试",
-  "region": "宁海县"
+  "region": "宁海县",
+  "start": "20260516T162500"
  },
  "a1c40283f23c64c08c7cf67384707e3e3c392b7f@ningbo-exam-cal": {
   "fp": "02ddcdf65b7477e8b8867dd3aaf2476a90ace074",
   "seq": 1,
   "stage": "面试",
-  "region": "市属"
+  "region": "市属",
+  "start": "20260516T205000"
+ },
+ "261004883cf73cb3d41f4c8f58edbe3fbecf7870@ningbo-exam-cal": {
+  "fp": "300160790707af9c80dddfdd1153f52469c01a8c",
+  "seq": 1,
+  "stage": "面试",
+  "region": "宁海县",
+  "start": "20260517T162500"
  },
  "b266f051a34f9b17f1bf87d49bc690a7a5267861@ningbo-exam-cal": {
   "fp": "108908c8d456e4d20be4df0c72ed7790472e4093",
   "seq": 1,
   "stage": "笔试出分",
-  "region": "鄞州区"
+  "region": "鄞州区",
+  "start": "20260519T220000"
  },
- "44df19bb27ec9adda5279e5797c0038a59c6cd74@ningbo-exam-cal": {
+ "41f342840dfde705ef54a40f0808c5bf50703cef@ningbo-exam-cal": {
   "fp": "3081184f3386ebc884359af6810659031d340174",
   "seq": 1,
   "stage": "再次报名",
-  "region": "海曙区"
+  "region": "海曙区",
+  "start": "20260525T090000"
  },
  "5fa1d6b6a088bff264c5f98ecd5cba988bf11cfe@ningbo-exam-cal": {
   "fp": "bb69fb211de9dd45a25ecd7cbb23252f60b6304a",
   "seq": 1,
   "stage": "笔试出分",
-  "region": "镇海区"
+  "region": "镇海区",
+  "start": "20260525T220100"
  },
  "a79754499135988fef77104457157f30f7abc727@ningbo-exam-cal": {
   "fp": "50464acbdf1cfdce673718b56a6f459f95861a3b",
   "seq": 1,
   "stage": "笔试出分",
-  "region": "象山县"
+  "region": "象山县",
+  "start": "20260525T220200"
  },
- "52369da0731e4fa746d15332ba2ca980a5d6a6c3@ningbo-exam-cal": {
+ "0f3ac87d53eb22c2fcc2784fce6c9acf95a027a8@ningbo-exam-cal": {
   "fp": "d804fe215a1ca9cfa3db52d533cd486bc7044f02",
   "seq": 1,
   "stage": "缴费确认",
-  "region": "海曙区"
+  "region": "海曙区",
+  "start": "20260526T090000"
  },
  "261070290e7ea10c5197a5ff1d86d934f4aca572@ningbo-exam-cal": {
   "fp": "40d9d194dd00f487088677d18fc81d14a0557acd",
   "seq": 1,
   "stage": "资格复审",
-  "region": "鄞州区"
+  "region": "鄞州区",
+  "start": "20260528T220000"
  },
  "575f0bb9bbc39f46488a58a7a103e037864488a3@ningbo-exam-cal": {
   "fp": "5840aba9aeb46c9e34aa86a769d29e8354ea1e2a",
   "seq": 1,
   "stage": "资格复审",
-  "region": "镇海区"
+  "region": "镇海区",
+  "start": "20260529T220100"
  },
  "51898f53480cd7822e23ad3d7a070c4a2524288c@ningbo-exam-cal": {
   "fp": "a5c328372773958eeeea1afd150bdb0229458a18",
   "seq": 1,
   "stage": "资格复审",
-  "region": "象山县"
+  "region": "象山县",
+  "start": "20260530T171600"
  },
- "d9cd660d936ce04f59b17eebfdb7f7cf3ddc247b@ningbo-exam-cal": {
+ "d0a4fac079c93022139df33c144de8a3524ef7ef@ningbo-exam-cal": {
   "fp": "6a214697658a4e9cc3e093f670a47af400603a75",
   "seq": 1,
   "stage": "面试",
-  "region": "象山县"
+  "region": "象山县",
+  "start": "20260530T171600"
  },
  "b767d53eeee819051d6531acc078dd4e45d538c7@ningbo-exam-cal": {
   "fp": "48ae322362be54b412b4959c827625291e4fa327",
   "seq": 1,
   "stage": "面试",
-  "region": "鄞州区"
+  "region": "鄞州区",
+  "start": "20260530T220100"
  },
  "22fd065f3a902b26346d19b54da4ddcff0c50bdb@ningbo-exam-cal": {
   "fp": "511dab2e24d1677b7a4cefbb0034bfb159c12b87",
   "seq": 1,
   "stage": "第二轮面试",
-  "region": "象山县"
+  "region": "象山县",
+  "start": "20260531T171600"
  },
  "42baaa1725476588da0c5ff1a82b8611a198d57f@ningbo-exam-cal": {
   "fp": "dc76b99823a57c137659e1f25c707e4709665672",
   "seq": 1,
   "stage": "面试",
-  "region": "镇海区"
+  "region": "镇海区",
+  "start": "20260531T174700"
  },
- "535122255db28201112a9a51920c9911836f78b0@ningbo-exam-cal": {
+ "d80cc8ac50e363082f43398a4ceb2d37907d6f63@ningbo-exam-cal": {
   "fp": "e171a2b25bb5d5f63f6f8e8f79f59a024a6feeea",
   "seq": 1,
   "stage": "报名",
-  "region": "市属"
+  "region": "市属",
+  "start": "20260608T090000"
  },
- "4888a03c625780a641181df657df7baf35f92e83@ningbo-exam-cal": {
+ "3a7f0b19583bff367df95e953482872c41c5eaca@ningbo-exam-cal": {
   "fp": "c77e1951db0638596742e4a9fb62942758319d70",
   "seq": 1,
   "stage": "资格初审",
-  "region": "市属"
+  "region": "市属",
+  "start": "20260613T090000"
  },
- "db7b7f1bb98e74d6a4b18bf9bf068689aa826003@ningbo-exam-cal": {
+ "00f3bbc374b75d06f4640744fbaeca73f282e105@ningbo-exam-cal": {
   "fp": "6e5c78d3a2ac2fafd7a491ca9240ba05eeedf73a",
   "seq": 1,
   "stage": "再次报名",
-  "region": "市属"
+  "region": "市属",
+  "start": "20260615T090000"
  },
- "c607b3bd4eb97fe440b8cffab2910b7aacaed444@ningbo-exam-cal": {
+ "89a3946545269e682ed7c16619e9c91b34bd2c99@ningbo-exam-cal": {
   "fp": "b4ff6d15ed3dbfcbf317fb798d36b4a7353ab39c",
   "seq": 1,
   "stage": "缴费确认",
-  "region": "市属"
+  "region": "市属",
+  "start": "20260616T090000"
  },
- "d3337f631d8f689afc7c5571fcc1ef8ef550e92b@ningbo-exam-cal": {
+ "db0391eedad45cb0d44568d6965f35eed344b957@ningbo-exam-cal": {
   "fp": "61b762a8d2d98ba7889397a376845fdb9975596c",
   "seq": 1,
   "stage": "准考证",
-  "region": "海曙区"
+  "region": "海曙区",
+  "start": "20260624T090000"
  },
- "74d5ed47b11be3d5154a66addd5e61de873e1e43@ningbo-exam-cal": {
+ "7bf2fea468ebd9fbcd2b082ae31aa924240b8bb1@ningbo-exam-cal": {
   "fp": "b335bf17de117d5c206ee1dc7fef039db6ac9f5f",
   "seq": 1,
   "stage": "准考证",
-  "region": "市属"
+  "region": "市属",
+  "start": "20260625T090000"
  },
  "8b4cb4e9e3d378c6e5a519491be89f4ff3bb7be1@ningbo-exam-cal": {
   "fp": "8a2373e865cf165463fcdffe3f3376c466e4c685",
   "seq": 1,
   "stage": "笔试",
-  "region": "市属"
+  "region": "市属",
+  "start": "20260627T090000"
  },
  "7ea07756fad7754f0288e91399ec7cbc7155b04f@ningbo-exam-cal": {
   "fp": "64cb3dcb3e949d7f3baea8cb650eb0b3cc4cbbf1",
   "seq": 1,
   "stage": "笔试",
-  "region": "海曙区"
+  "region": "海曙区",
+  "start": "20260627T090000"
  },
  "58429ef438f65bfc2ca60031d9ffd2bb2666fdbf@ningbo-exam-cal": {
   "fp": "edbad6999ebfd23c8683f7fecbdd9965ffff7e47",
   "seq": 1,
   "stage": "笔试出分",
-  "region": "市属"
+  "region": "市属",
+  "start": "20260707T204400"
  },
  "7319838995a83345447291126b1a2922cb948788@ningbo-exam-cal": {
   "fp": "d094bc9aaa0453b3807731840d42f64b6bb4b06e",
   "seq": 1,
   "stage": "笔试出分",
-  "region": "海曙区"
+  "region": "海曙区",
+  "start": "20260713T145200"
  },
  "2040778d8c61867dfb2c103f9db2cfac26b30166@ningbo-exam-cal": {
   "fp": "b76bb6ddd739ed61e99050175df7b179a49b161c",
   "seq": 1,
   "stage": "资格复审",
-  "region": "海曙区"
+  "region": "海曙区",
+  "start": "20260724T145200"
  },
  "c6fed2657773264094f968c14daae9f07e3b1f91@ningbo-exam-cal": {
   "fp": "743561541d8c7ff7739ed2296dbb99f763e9a8c2",
   "seq": 1,
   "stage": "资格复审",
-  "region": "市属"
+  "region": "市属",
+  "start": "20260724T204500"
  },
  "597780afae6000ca48a9a7a4155199034095d753@ningbo-exam-cal": {
   "fp": "ff516cdb320dc8ac4ed5ed2e3abde385c3d904a9",
   "seq": 1,
   "stage": "面试",
-  "region": "市属"
+  "region": "市属",
+  "start": "20260725T204600"
  },
- "446a04fc25eebbec309189a4617e1842e14a6348@ningbo-exam-cal": {
+ "53269d1ece18275b1e967c5f2cf3c61dfe3a387d@ningbo-exam-cal": {
   "fp": "310389de003df2f6aa963648581044e8fb1df230",
   "seq": 1,
   "stage": "报名",
-  "region": "鄞州区"
+  "region": "鄞州区",
+  "start": "20260727T090000"
  },
- "cb8c14f59dac4b966aad6ecf20446d243ce59318@ningbo-exam-cal": {
+ "5ef20eafb59869e392cdb3e39fb4e6f2e650b3d3@ningbo-exam-cal": {
   "fp": "95dd9b3284a1527a499263f19ca57c3d1755ea00",
   "seq": 1,
   "stage": "面试",
-  "region": "海曙区"
+  "region": "海曙区",
+  "start": "20260801T145200"
  },
- "3282091c0b96dc2e45cfe53992d37f6de01c457f@ningbo-exam-cal": {
+ "cb8c14f59dac4b966aad6ecf20446d243ce59318@ningbo-exam-cal": {
+  "fp": "1b71507fb585f0092c846a73e8826168032a11c4",
+  "seq": 1,
+  "stage": "面试",
+  "region": "海曙区",
+  "start": "20260802T182300"
+ },
+ "0a6ae5bba94a04469c96521da099772927b57d5c@ningbo-exam-cal": {
   "fp": "dce27ea65f0ca923291579ed486ed29b7ab4418c",
   "seq": 1,
   "stage": "资格初审",
-  "region": "鄞州区"
+  "region": "鄞州区",
+  "start": "20260803T090000"
  },
- "c6b764726987eefc0b9cdcdb80b1eb2a4f5d5511@ningbo-exam-cal": {
+ "0c1905081febbce218ffadb457c367d06618355f@ningbo-exam-cal": {
   "fp": "1bb0e72b510c0f038c1991e6be00c99006fdebd6",
   "seq": 1,
   "stage": "再次报名",
-  "region": "鄞州区"
+  "region": "鄞州区",
+  "start": "20260805T090000"
  },
- "4412549db923b2f0ff5df44e5c55954b841f1ca0@ningbo-exam-cal": {
+ "ac359a43e3b092649e12aef0bf10a12f0cedcae5@ningbo-exam-cal": {
   "fp": "eda51192b2ec56876af3be6ad1f490eb54a13a85",
   "seq": 1,
   "stage": "缴费确认",
-  "region": "鄞州区"
+  "region": "鄞州区",
+  "start": "20260806T090000"
  }
 }

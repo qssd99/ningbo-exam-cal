@@ -125,7 +125,9 @@ def events_from_flowus(year: int):
         desc.append("来源：FlowUs 2026 归档（人工整理）")
         desc.append("⚠️ 以官方公告原文为准。")
         events.append({
-            "uid_src": f"flowus|{main['id']}|{stage}",
+            # UID 必须用原始环节名：归一后「首轮面试」和「面试」同名，
+            # 用归一名会让同场次内两个不同环节生成相同 UID（订阅端会互相覆盖）
+            "uid_src": f"flowus|{main['id']}|{r['title'].strip()}",
             "title": f"【{region}】{stage}｜{main['title']}",
             "start": st, "end": en, "all_day": False,
             "desc": "\n".join(desc),
@@ -171,7 +173,11 @@ def events_from_scraper(year: int, days: int):
 # ---------- 合并去重 ----------
 
 def merge(events):
-    """去重：同一考试场次 + 同一环节 + 开始时间相差 ≤36h → 视为同一事件，FlowUs 优先。
+    """去重。
+
+    关键：FlowUs 是人工整理的结构化数据，同场次同名的记录就是两个不同环节
+    （如"首轮面试 5-16"和"面试 5-17"是分开的两场），**同源不做时间窗合并**，
+    只有跨源（flowus vs 抓取器）才用 36h 窗口判重。
 
     键必须含"场次"，不能只用 (地区, 环节)：
     同一地区同年有多场考试（如镇海区 510招28人笔试5-10 / 人才引进招22人笔试4-08），
@@ -179,20 +185,25 @@ def merge(events):
     """
     def key(e):
         return (e["region"], e.get("main_id") or e["main_title"], e["stage"])
-    events = sorted(events, key=lambda e: (key(e), e["start"]))
-    merged, seen = [], {}
+
+    events = sorted(events, key=lambda e: (e["start"], e["src"]))
+    merged = []
+    flowus_idx = {}   # key → 该场次已收录的 flowus 环节数（用于跨源判重）
     for e in events:
         k = key(e)
-        prev = seen.get(k)
-        if prev and abs((e["start"] - prev["start"]).total_seconds()) <= 36 * 3600:
-            if prev["src"] == "flowus":
-                continue
-            if e["src"] == "flowus":
-                merged[merged.index(prev)] = e
-                seen[k] = e
-            continue
-        merged.append(e)
-        seen[k] = e
+        if e["src"] == "flowus":
+            # 同源：同名直接都保留（不同环节可能同名同月）
+            merged.append(e)
+            flowus_idx.setdefault(k, 0)
+            flowus_idx[k] += 1
+        else:
+            # 跨源：同场次同名且时间接近 → 判为同一事件，FlowUs 优先，跳过抓取器版本
+            dup = any(m["src"] == "flowus" and m["region"] == e["region"]
+                      and m["stage"] == e["stage"]
+                      and abs((m["start"] - e["start"]).total_seconds()) <= 36 * 3600
+                      for m in merged)
+            if not dup:
+                merged.append(e)
     return merged
 
 
@@ -226,7 +237,8 @@ def render(events, out_path, state_path, title="宁波事业编考试日历"):
         fp = hashlib.sha1(f"{ev['start']}|{ev['end']}|{ev['desc']}".encode()).hexdigest()
         prev = old.get(uid)
         seq = prev.get("seq", 0) if prev and prev.get("fp") == fp else ((prev.get("seq", 0) + 1) if prev else 1)
-        new_state[uid] = {"fp": fp, "seq": seq, "stage": ev["stage"], "region": ev["region"]}
+        new_state[uid] = {"fp": fp, "seq": seq, "stage": ev["stage"],
+                          "region": ev["region"], "start": fmt_dt(ev["start"])}
 
         lines.append("BEGIN:VEVENT")
         lines.append(f"UID:{uid}")
