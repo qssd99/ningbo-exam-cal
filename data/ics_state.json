@@ -664,8 +664,8 @@
   "region": "鄞州区",
   "start": "20260806T090000"
  },
- "1ed77018f9bcf8836bbb4f44c0a4305bfa124cf2@ningbo-exam-cal": {
-  "fp": "47749340c3f0295348632ee0e465344a208abb10",
+ "03f16b99ee456730d6f8be23a7a2b9ed41d3200b@ningbo-exam-cal": {
+  "fp": "632be0b4aa68249ab965b787c33f6ac18c948e57",
   "seq": 1,
   "stage": "准考证",
   "region": "鄞州区",
@@ -677,5 +677,33 @@
   "stage": "笔试",
   "region": "鄞州区",
   "start": "20260815T000000"
+ },
+ "a8c98e3606d2629b113e2bc2d79aefee45dd03d0@ningbo-exam-cal": {
+  "fp": "6c8b1eb50a93fde7a1e9583d691be2cffb9c130a",
+  "seq": 1,
+  "stage": "笔试",
+  "region": "鄞州区",
+  "start": "20260815T090000"
+ },
+ "80a59bf4977612aa677d0d58d1ec2c2e6f200ace@ningbo-exam-cal": {
+  "fp": "33781911fe05d4023f116482f93d9caedda50e20",
+  "seq": 1,
+  "stage": "笔试出分",
+  "region": "鄞州区",
+  "start": "20260820T204000"
+ },
+ "3bf20de13d0c5d283cbc94b6f3433b5628dd7322@ningbo-exam-cal": {
+  "fp": "4ac9c0abe24bd9d869d4546f0b0d3560f5bb6331",
+  "seq": 1,
+  "stage": "资格复审",
+  "region": "鄞州区",
+  "start": "20260827T204100"
+ },
+ "2a31bdd85464999c32ecd70e3c08d74c57a8bf07@ningbo-exam-cal": {
+  "fp": "7b927207650df0746dadeefe99abb72cc89f38bd",
+  "seq": 1,
+  "stage": "面试",
+  "region": "鄞州区",
+  "start": "20260829T000000"
  }
 }
