@@ -1,0 +1,1611 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ningbo Exam Monitor//宁波事业编考试日历//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:宁波事业编考试日历
+X-WR-CALDESC:宁波各区县事业单位公开招聘/选聘考试时间节
+ 点（自动生成，以官方公告为准）
+X-WR-TIMEZONE:Asia/Shanghai
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:99d030ac2d58c67d6fd8f446ea5b9b043be742ba@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260305T090000
+DTEND;TZID=Asia/Shanghai:20260324T160000
+SUMMARY:【高新区】报名｜高新区人才引进411公告
+DESCRIPTION:环节：报名时间\n招录人数：7\n公告原文：http://
+ www.nbhtz.gov.cn/col/col1229021956/art/2026/art_501481d31a2b4eaf95e754cf31
+ 317997.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以官
+ 方公告原文为准。
+URL:http://www.nbhtz.gov.cn/col/col1229021956/art/2026/art_501481d31a2b4eaf
+ 95e754cf31317997.html
+SEQUENCE:1
+CATEGORIES:高新区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【高新区】报名｜高新区人才引进411公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e1a6d16df261909ec71bff92f5554da7ae2db2a9@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260307T000000
+DTEND;TZID=Asia/Shanghai:20260324T000000
+SUMMARY:【高新区】资格初审｜高新区人才引进411公告
+DESCRIPTION:环节：资格初审\n招录人数：7\n公告原文：http://
+ www.nbhtz.gov.cn/col/col1229021956/art/2026/art_501481d31a2b4eaf95e754cf31
+ 317997.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以官
+ 方公告原文为准。
+URL:http://www.nbhtz.gov.cn/col/col1229021956/art/2026/art_501481d31a2b4eaf
+ 95e754cf31317997.html
+SEQUENCE:1
+CATEGORIES:高新区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【高新区】资格初审｜高新区人才引进411公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6d101eece990b2d4bdd8fdeda386257812424c3e@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260313T090000
+DTEND;TZID=Asia/Shanghai:20260319T160000
+SUMMARY:【市属】报名｜市属411公告
+DESCRIPTION:环节：报名时间\n招录人数：100\n公告原文：https
+ ://rsj.ningbo.gov.cn/col/col1229676737/art/2026/art_c1ccf453a9c0ed21cb53b2
+ a54826949e.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以
+ 官方公告原文为准。
+URL:https://rsj.ningbo.gov.cn/col/col1229676737/art/2026/art_c1ccf453a9c0ed
+ 21cb53b2a54826949e.html
+SEQUENCE:1
+CATEGORIES:市属
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【市属】报名｜市属411公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1a5abd65ceadbc3e56c60156e7be9ffd61ed94f2@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260317T192000
+DTEND;TZID=Asia/Shanghai:20260321T192000
+SUMMARY:【高新区】现场报名｜高新区人才引进411公告
+DESCRIPTION:环节：现场报名\n招录人数：7\n公告原文：http://
+ www.nbhtz.gov.cn/col/col1229021956/art/2026/art_501481d31a2b4eaf95e754cf31
+ 317997.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以官
+ 方公告原文为准。
+URL:http://www.nbhtz.gov.cn/col/col1229021956/art/2026/art_501481d31a2b4eaf
+ 95e754cf31317997.html
+SEQUENCE:1
+CATEGORIES:高新区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【高新区】现场报名｜高新区人才引进411公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:10daff499a5c5d235ef24b23dbc26266765c28b3@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260320T000000
+DTEND;TZID=Asia/Shanghai:20260323T000000
+SUMMARY:【市属】资格初审｜市属411公告
+DESCRIPTION:环节：资格初审\n招录人数：100\n公告原文：https
+ ://rsj.ningbo.gov.cn/col/col1229676737/art/2026/art_c1ccf453a9c0ed21cb53b2
+ a54826949e.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以
+ 官方公告原文为准。
+URL:https://rsj.ningbo.gov.cn/col/col1229676737/art/2026/art_c1ccf453a9c0ed
+ 21cb53b2a54826949e.html
+SEQUENCE:1
+CATEGORIES:市属
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【市属】资格初审｜市属411公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dfde98d944bcf55bd7c2fcd830384c56b41b39dc@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260324T090000
+DTEND;TZID=Asia/Shanghai:20260324T160000
+SUMMARY:【市属】再次报名｜市属411公告
+DESCRIPTION:环节：查询并再次报名\n招录人数：100\n公告原
+ 文：https://rsj.ningbo.gov.cn/col/col1229676737/art/2026/art_c1ccf453a9c
+ 0ed21cb53b2a54826949e.html\n来源：FlowUs 2026 归档（人工整理）\
+ n⚠️ 以官方公告原文为准。
+URL:https://rsj.ningbo.gov.cn/col/col1229676737/art/2026/art_c1ccf453a9c0ed
+ 21cb53b2a54826949e.html
+SEQUENCE:1
+CATEGORIES:市属
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【市属】再次报名｜市属411公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0840cc4412133377dffa37b891d5f7e095ef1477@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260324T090000
+DTEND;TZID=Asia/Shanghai:20260330T160000
+SUMMARY:【镇海区】报名｜镇海区510公告
+DESCRIPTION:环节：报名时间\n招录人数：28\n公告原文：https:
+ //www.zh.gov.cn/col/col1229822905/art/2026/art_7f583a19a1424210a981b541dd3
+ 4b059.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以官
+ 方公告原文为准。
+URL:https://www.zh.gov.cn/col/col1229822905/art/2026/art_7f583a19a1424210a9
+ 81b541dd34b059.html
+SEQUENCE:1
+CATEGORIES:镇海区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【镇海区】报名｜镇海区510公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:85456c72c310263a79b937f4a8adf69537269bef@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260324T090000
+DTEND;TZID=Asia/Shanghai:20260330T160000
+SUMMARY:【镇海区】报名｜镇海区人才引进4.8公告
+DESCRIPTION:环节：报名时间\n招录人数：22\n公告原文：https:
+ //www.zh.gov.cn/col/col1229822905/art/2026/art_7f583a19a1424210a981b541dd3
+ 4b059.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以官
+ 方公告原文为准。
+URL:https://www.zh.gov.cn/col/col1229822905/art/2026/art_7f583a19a1424210a9
+ 81b541dd34b059.html
+SEQUENCE:1
+CATEGORIES:镇海区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【镇海区】报名｜镇海区人才引进4.8公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7d7ef44c0a638061019d5eb87ea0268e9006d494@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260325T090000
+DTEND;TZID=Asia/Shanghai:20260326T160000
+SUMMARY:【市属】缴费确认｜市属411公告
+DESCRIPTION:环节：缴费确认时间\n招录人数：100\n公告原文
+ ：https://rsj.ningbo.gov.cn/col/col1229676737/art/2026/art_c1ccf453a9c0ed
+ 21cb53b2a54826949e.html\n来源：FlowUs 2026 归档（人工整理）\n
+ ⚠️ 以官方公告原文为准。
+URL:https://rsj.ningbo.gov.cn/col/col1229676737/art/2026/art_c1ccf453a9c0ed
+ 21cb53b2a54826949e.html
+SEQUENCE:1
+CATEGORIES:市属
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【市属】缴费确认｜市属411公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:64d5f6d3fe231e661c187d0985f0abf3a4c5af89@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260325T090000
+DTEND;TZID=Asia/Shanghai:20260325T160000
+SUMMARY:【高新区】再次报名｜高新区人才引进411公告
+DESCRIPTION:环节：查询并再次报名\n招录人数：7\n公告原文
+ ：http://www.nbhtz.gov.cn/col/col1229021956/art/2026/art_501481d31a2b4eaf
+ 95e754cf31317997.html\n来源：FlowUs 2026 归档（人工整理）\n⚠
+ ️ 以官方公告原文为准。
+URL:http://www.nbhtz.gov.cn/col/col1229021956/art/2026/art_501481d31a2b4eaf
+ 95e754cf31317997.html
+SEQUENCE:1
+CATEGORIES:高新区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【高新区】再次报名｜高新区人才引进411公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5008d95bf3ef73766debb3b933d4da79c5ff2e86@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260401T090000
+DTEND;TZID=Asia/Shanghai:20260401T160000
+SUMMARY:【镇海区】再次报名｜镇海区510公告
+DESCRIPTION:环节：查询并再次报名\n招录人数：28\n公告原文
+ ：https://www.zh.gov.cn/col/col1229822905/art/2026/art_7f583a19a1424210a9
+ 81b541dd34b059.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️
+  以官方公告原文为准。
+URL:https://www.zh.gov.cn/col/col1229822905/art/2026/art_7f583a19a1424210a9
+ 81b541dd34b059.html
+SEQUENCE:1
+CATEGORIES:镇海区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【镇海区】再次报名｜镇海区510公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f8868afb05fc62f25529408f11515c3c76d45733@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260401T090000
+DTEND;TZID=Asia/Shanghai:20260401T160000
+SUMMARY:【镇海区】再次报名｜镇海区人才引进4.8公告
+DESCRIPTION:环节：查询并再次报名\n招录人数：22\n公告原文
+ ：https://www.zh.gov.cn/col/col1229822905/art/2026/art_7f583a19a1424210a9
+ 81b541dd34b059.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️
+  以官方公告原文为准。
+URL:https://www.zh.gov.cn/col/col1229822905/art/2026/art_7f583a19a1424210a9
+ 81b541dd34b059.html
+SEQUENCE:1
+CATEGORIES:镇海区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【镇海区】再次报名｜镇海区人才引进4.8公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d5bc8f24d2dc6a06de53bac8536570d41ee8f8ab@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260402T090000
+DTEND;TZID=Asia/Shanghai:20260402T160000
+SUMMARY:【镇海区】缴费确认｜镇海区510公告
+DESCRIPTION:环节：缴费确认时间\n招录人数：28\n公告原文：
+ https://www.zh.gov.cn/col/col1229822905/art/2026/art_7f583a19a1424210a981b
+ 541dd34b059.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 
+ 以官方公告原文为准。
+URL:https://www.zh.gov.cn/col/col1229822905/art/2026/art_7f583a19a1424210a9
+ 81b541dd34b059.html
+SEQUENCE:1
+CATEGORIES:镇海区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【镇海区】缴费确认｜镇海区510公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:10ad705ddbc86494bcfef9cb1650d25d4c2eb103@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260402T090000
+DTEND;TZID=Asia/Shanghai:20260402T160000
+SUMMARY:【镇海区】缴费确认｜镇海区人才引进4.8公告
+DESCRIPTION:环节：缴费确认时间\n招录人数：22\n公告原文：
+ https://www.zh.gov.cn/col/col1229822905/art/2026/art_7f583a19a1424210a981b
+ 541dd34b059.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 
+ 以官方公告原文为准。
+URL:https://www.zh.gov.cn/col/col1229822905/art/2026/art_7f583a19a1424210a9
+ 81b541dd34b059.html
+SEQUENCE:1
+CATEGORIES:镇海区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【镇海区】缴费确认｜镇海区人才引进4.8公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6d704b5a0356e7432041b5ec858153436802b9f8@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260403T090000
+DTEND;TZID=Asia/Shanghai:20260408T090000
+SUMMARY:【镇海区】准考证｜镇海区人才引进4.8公告
+DESCRIPTION:环节：准考证打印\n招录人数：22\n公告原文：htt
+ ps://www.zh.gov.cn/col/col1229822905/art/2026/art_7f583a19a1424210a981b541
+ dd34b059.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以
+ 官方公告原文为准。
+URL:https://www.zh.gov.cn/col/col1229822905/art/2026/art_7f583a19a1424210a9
+ 81b541dd34b059.html
+SEQUENCE:1
+CATEGORIES:镇海区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【镇海区】准考证｜镇海区人才引进4.8公告
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdcf88df81d0b7502d55769701bdf91c3464a039@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260406T090000
+DTEND;TZID=Asia/Shanghai:20260411T093000
+SUMMARY:【高新区】准考证｜高新区人才引进411公告
+DESCRIPTION:环节：准考证打印\n招录人数：7\n公告原文：http
+ ://www.nbhtz.gov.cn/col/col1229021956/art/2026/art_501481d31a2b4eaf95e754c
+ f31317997.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以
+ 官方公告原文为准。
+URL:http://www.nbhtz.gov.cn/col/col1229021956/art/2026/art_501481d31a2b4eaf
+ 95e754cf31317997.html
+SEQUENCE:1
+CATEGORIES:高新区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【高新区】准考证｜高新区人才引进411公告
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:44d4c87d38c042cd5edc8c75d54af32a5d2ddeac@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260407T090000
+DTEND;TZID=Asia/Shanghai:20260413T160000
+SUMMARY:【宁海县】报名｜宁海县人才引进425公告
+DESCRIPTION:环节：报名时间\n招录人数：20\n公告原文：https:
+ //www.ninghai.gov.cn/col/col1229819567/art/2026/art_d3551efb6e984e8fabd12a
+ 11f0bb67fd.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以
+ 官方公告原文为准。
+URL:https://www.ninghai.gov.cn/col/col1229819567/art/2026/art_d3551efb6e984
+ e8fabd12a11f0bb67fd.html
+SEQUENCE:1
+CATEGORIES:宁海县
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【宁海县】报名｜宁海县人才引进425公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b412fe415436c76021db607081ffcc6ff169bf01@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260407T090000
+DTEND;TZID=Asia/Shanghai:20260413T160000
+SUMMARY:【鄞州区】报名｜鄞州区425公告
+DESCRIPTION:环节：报名时间\n招录人数：13\n公告原文：https:
+ //www.nbyz.gov.cn/col/col1229172679/art/2026/art_feba9b88988d4f4ab878320e5
+ 0d630d4.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以官
+ 方公告原文为准。
+URL:https://www.nbyz.gov.cn/col/col1229172679/art/2026/art_feba9b88988d4f4a
+ b878320e50d630d4.html
+SEQUENCE:1
+CATEGORIES:鄞州区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【鄞州区】报名｜鄞州区425公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:45f5462d44a062595611a97b5e55e92aa1f03067@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260408T090000
+DTEND;TZID=Asia/Shanghai:20260414T160000
+SUMMARY:【宁海县】资格初审｜宁海县人才引进425公告
+DESCRIPTION:环节：资格审核时间\n招录人数：20\n公告原文：
+ https://www.ninghai.gov.cn/col/col1229819567/art/2026/art_d3551efb6e984e8f
+ abd12a11f0bb67fd.html\n来源：FlowUs 2026 归档（人工整理）\n⚠
+ ️ 以官方公告原文为准。
+URL:https://www.ninghai.gov.cn/col/col1229819567/art/2026/art_d3551efb6e984
+ e8fabd12a11f0bb67fd.html
+SEQUENCE:1
+CATEGORIES:宁海县
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【宁海县】资格初审｜宁海县人才引进425公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bf1711f2a5f47e6814651d89b03a2f53893ff112@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260408T090000
+DTEND;TZID=Asia/Shanghai:20260411T093000
+SUMMARY:【市属】准考证｜市属411公告
+DESCRIPTION:环节：准考证打印\n招录人数：100\n公告原文：ht
+ tps://rsj.ningbo.gov.cn/col/col1229676737/art/2026/art_c1ccf453a9c0ed21cb5
+ 3b2a54826949e.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 
+ 以官方公告原文为准。
+URL:https://rsj.ningbo.gov.cn/col/col1229676737/art/2026/art_c1ccf453a9c0ed
+ 21cb53b2a54826949e.html
+SEQUENCE:1
+CATEGORIES:市属
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【市属】准考证｜市属411公告
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:44aec06f5ed8037ee052ab939531f6a0fc6d01f5@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260408T123900
+DTEND;TZID=Asia/Shanghai:20260408T143900
+SUMMARY:【镇海区】笔试｜镇海区人才引进4.8公告
+DESCRIPTION:环节：笔试\n招录人数：22\n公告原文：https://www.
+ zh.gov.cn/col/col1229822905/art/2026/art_7f583a19a1424210a981b541dd34b059.
+ html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以官方公
+ 告原文为准。
+URL:https://www.zh.gov.cn/col/col1229822905/art/2026/art_7f583a19a1424210a9
+ 81b541dd34b059.html
+SEQUENCE:1
+CATEGORIES:镇海区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【镇海区】笔试｜镇海区人才引进4.8公告
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:996565e046837edcc8413eac763eb0021b44bd73@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260408T124100
+DTEND;TZID=Asia/Shanghai:20260408T134100
+SUMMARY:【镇海区】资格复审｜镇海区人才引进4.8公告
+DESCRIPTION:环节：资格审核（面谈）\n招录人数：22\n公告原
+ 文：https://www.zh.gov.cn/col/col1229822905/art/2026/art_7f583a19a142421
+ 0a981b541dd34b059.html\n来源：FlowUs 2026 归档（人工整理）\n⚠
+ ️ 以官方公告原文为准。
+URL:https://www.zh.gov.cn/col/col1229822905/art/2026/art_7f583a19a1424210a9
+ 81b541dd34b059.html
+SEQUENCE:1
+CATEGORIES:镇海区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【镇海区】资格复审｜镇海区人才引进4.8公告
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:02250862e87c9137869d6bdafce6d7b49d157278@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260408T124200
+DTEND;TZID=Asia/Shanghai:20260408T134200
+SUMMARY:【镇海区】笔试出分｜镇海区人才引进4.8公告
+DESCRIPTION:环节：笔试出分\n招录人数：22\n公告原文：https:
+ //www.zh.gov.cn/col/col1229822905/art/2026/art_7f583a19a1424210a981b541dd3
+ 4b059.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以官
+ 方公告原文为准。
+URL:https://www.zh.gov.cn/col/col1229822905/art/2026/art_7f583a19a1424210a9
+ 81b541dd34b059.html
+SEQUENCE:1
+CATEGORIES:镇海区
+END:VEVENT
+BEGIN:VEVENT
+UID:a8af75736faff8ed6035951209581f9c017b0b34@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260409T123800
+DTEND;TZID=Asia/Shanghai:20260409T133800
+SUMMARY:【镇海区】面试｜镇海区人才引进4.8公告
+DESCRIPTION:环节：面试\n招录人数：22\n公告原文：https://www.
+ zh.gov.cn/col/col1229822905/art/2026/art_7f583a19a1424210a981b541dd34b059.
+ html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以官方公
+ 告原文为准。
+URL:https://www.zh.gov.cn/col/col1229822905/art/2026/art_7f583a19a1424210a9
+ 81b541dd34b059.html
+SEQUENCE:1
+CATEGORIES:镇海区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【镇海区】面试｜镇海区人才引进4.8公告
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9bb223e84b309fcb5b7785d31f4d8a8aef89a0e1@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260411T090000
+DTEND;TZID=Asia/Shanghai:20260411T110000
+SUMMARY:【市属】笔试｜市属411公告
+DESCRIPTION:环节：笔试\n招录人数：100\n公告原文：https://rsj
+ .ningbo.gov.cn/col/col1229676737/art/2026/art_c1ccf453a9c0ed21cb53b2a54826
+ 949e.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以官方
+ 公告原文为准。
+URL:https://rsj.ningbo.gov.cn/col/col1229676737/art/2026/art_c1ccf453a9c0ed
+ 21cb53b2a54826949e.html
+SEQUENCE:1
+CATEGORIES:市属
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【市属】笔试｜市属411公告
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:36d0d2b0a7bffee76a44c40479b32bb50e5ac0d5@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260411T090000
+DTEND;TZID=Asia/Shanghai:20260411T110000
+SUMMARY:【高新区】笔试｜高新区人才引进411公告
+DESCRIPTION:环节：笔试\n招录人数：7\n公告原文：http://www.nb
+ htz.gov.cn/col/col1229021956/art/2026/art_501481d31a2b4eaf95e754cf31317997
+ .html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以官方公
+ 告原文为准。
+URL:http://www.nbhtz.gov.cn/col/col1229021956/art/2026/art_501481d31a2b4eaf
+ 95e754cf31317997.html
+SEQUENCE:1
+CATEGORIES:高新区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【高新区】笔试｜高新区人才引进411公告
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ab2a1198a2de9680ee58b1026773032d74590ad2@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260414T090000
+DTEND;TZID=Asia/Shanghai:20260415T160000
+SUMMARY:【鄞州区】资格初审｜鄞州区425公告
+DESCRIPTION:环节：资格初审时间\n招录人数：13\n公告原文：
+ https://www.nbyz.gov.cn/col/col1229172679/art/2026/art_feba9b88988d4f4ab87
+ 8320e50d630d4.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 
+ 以官方公告原文为准。
+URL:https://www.nbyz.gov.cn/col/col1229172679/art/2026/art_feba9b88988d4f4a
+ b878320e50d630d4.html
+SEQUENCE:1
+CATEGORIES:鄞州区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【鄞州区】资格初审｜鄞州区425公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:60c2483ce77dd140d40560823754816093f88d46@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260415T090000
+DTEND;TZID=Asia/Shanghai:20260415T160000
+SUMMARY:【宁海县】再次报名｜宁海县人才引进425公告
+DESCRIPTION:环节：查询并再次报名\n招录人数：20\n公告原文
+ ：https://www.ninghai.gov.cn/col/col1229819567/art/2026/art_d3551efb6e984
+ e8fabd12a11f0bb67fd.html\n来源：FlowUs 2026 归档（人工整理）\n
+ ⚠️ 以官方公告原文为准。
+URL:https://www.ninghai.gov.cn/col/col1229819567/art/2026/art_d3551efb6e984
+ e8fabd12a11f0bb67fd.html
+SEQUENCE:1
+CATEGORIES:宁海县
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【宁海县】再次报名｜宁海县人才引进425公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f19eae866622406988492749692a6a4f93e6334c@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260416T090000
+DTEND;TZID=Asia/Shanghai:20260417T160000
+SUMMARY:【宁海县】缴费确认｜宁海县人才引进425公告
+DESCRIPTION:环节：缴费确认时间\n招录人数：20\n公告原文：
+ https://www.ninghai.gov.cn/col/col1229819567/art/2026/art_d3551efb6e984e8f
+ abd12a11f0bb67fd.html\n来源：FlowUs 2026 归档（人工整理）\n⚠
+ ️ 以官方公告原文为准。
+URL:https://www.ninghai.gov.cn/col/col1229819567/art/2026/art_d3551efb6e984
+ e8fabd12a11f0bb67fd.html
+SEQUENCE:1
+CATEGORIES:宁海县
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【宁海县】缴费确认｜宁海县人才引进425公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:43b5e2209cc7036e9fdc0c15a9df81d6b2cd744e@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260416T090000
+DTEND;TZID=Asia/Shanghai:20260416T160000
+SUMMARY:【鄞州区】再次报名｜鄞州区425公告
+DESCRIPTION:环节：查询并再次报名\n招录人数：13\n公告原文
+ ：https://www.nbyz.gov.cn/col/col1229172679/art/2026/art_feba9b88988d4f4a
+ b878320e50d630d4.html\n来源：FlowUs 2026 归档（人工整理）\n⚠
+ ️ 以官方公告原文为准。
+URL:https://www.nbyz.gov.cn/col/col1229172679/art/2026/art_feba9b88988d4f4a
+ b878320e50d630d4.html
+SEQUENCE:1
+CATEGORIES:鄞州区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【鄞州区】再次报名｜鄞州区425公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0cfa87c059a5f32e1cd7f3aa07f0664224557032@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260417T090000
+DTEND;TZID=Asia/Shanghai:20260420T160000
+SUMMARY:【鄞州区】缴费确认｜鄞州区425公告
+DESCRIPTION:环节：缴费确认时间\n招录人数：13\n公告原文：
+ https://www.nbyz.gov.cn/col/col1229172679/art/2026/art_feba9b88988d4f4ab87
+ 8320e50d630d4.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 
+ 以官方公告原文为准。
+URL:https://www.nbyz.gov.cn/col/col1229172679/art/2026/art_feba9b88988d4f4a
+ b878320e50d630d4.html
+SEQUENCE:1
+CATEGORIES:鄞州区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【鄞州区】缴费确认｜鄞州区425公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e9ef9f59e31336bcb0e332121dbae8247fbec1af@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260422T090000
+DTEND;TZID=Asia/Shanghai:20260425T100000
+SUMMARY:【宁海县】准考证｜宁海县人才引进425公告
+DESCRIPTION:环节：准考证打印\n招录人数：20\n公告原文：htt
+ ps://www.ninghai.gov.cn/col/col1229819567/art/2026/art_d3551efb6e984e8fabd
+ 12a11f0bb67fd.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 
+ 以官方公告原文为准。
+URL:https://www.ninghai.gov.cn/col/col1229819567/art/2026/art_d3551efb6e984
+ e8fabd12a11f0bb67fd.html
+SEQUENCE:1
+CATEGORIES:宁海县
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【宁海县】准考证｜宁海县人才引进425公告
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:45815bcd86b7dad0cb2b365eaf79e60188730e78@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260422T090000
+DTEND;TZID=Asia/Shanghai:20260428T160000
+SUMMARY:【象山县】报名｜象山县人才引进516公告
+DESCRIPTION:环节：报名时间\n招录人数：20\n公告原文：https:
+ //www.xiangshan.gov.cn/col/col1229056720/art/2026/art_f9be5714ec20204f811f
+ 21e5a14d5111.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 
+ 以官方公告原文为准。
+URL:https://www.xiangshan.gov.cn/col/col1229056720/art/2026/art_f9be5714ec2
+ 0204f811f21e5a14d5111.html
+SEQUENCE:1
+CATEGORIES:象山县
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【象山县】报名｜象山县人才引进516公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e0d9e0a61e5cf07375cac0117ad3a9557eb90727@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260422T090000
+DTEND;TZID=Asia/Shanghai:20260429T160000
+SUMMARY:【象山县】资格初审｜象山县人才引进516公告
+DESCRIPTION:环节：资格初审时间\n招录人数：20\n公告原文：
+ https://www.xiangshan.gov.cn/col/col1229056720/art/2026/art_f9be5714ec2020
+ 4f811f21e5a14d5111.html\n来源：FlowUs 2026 归档（人工整理）\n
+ ⚠️ 以官方公告原文为准。
+URL:https://www.xiangshan.gov.cn/col/col1229056720/art/2026/art_f9be5714ec2
+ 0204f811f21e5a14d5111.html
+SEQUENCE:1
+CATEGORIES:象山县
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【象山县】资格初审｜象山县人才引进516公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:267db8e2950d229e0306f2619765dd60a2779c9b@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260422T151600
+DTEND;TZID=Asia/Shanghai:20260422T161600
+SUMMARY:【高新区】笔试出分｜高新区人才引进411公告
+DESCRIPTION:环节：笔试出分\n招录人数：7\n公告原文：http://
+ www.nbhtz.gov.cn/col/col1229021956/art/2026/art_501481d31a2b4eaf95e754cf31
+ 317997.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以官
+ 方公告原文为准。
+URL:http://www.nbhtz.gov.cn/col/col1229021956/art/2026/art_501481d31a2b4eaf
+ 95e754cf31317997.html
+SEQUENCE:1
+CATEGORIES:高新区
+END:VEVENT
+BEGIN:VEVENT
+UID:4da316c0e85928f930e0f9fe8958973270e39254@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260423T090000
+DTEND;TZID=Asia/Shanghai:20260425T093000
+SUMMARY:【鄞州区】准考证｜鄞州区425公告
+DESCRIPTION:环节：准考证打印\n招录人数：13\n公告原文：htt
+ ps://www.nbyz.gov.cn/col/col1229172679/art/2026/art_feba9b88988d4f4ab87832
+ 0e50d630d4.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以
+ 官方公告原文为准。
+URL:https://www.nbyz.gov.cn/col/col1229172679/art/2026/art_feba9b88988d4f4a
+ b878320e50d630d4.html
+SEQUENCE:1
+CATEGORIES:鄞州区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【鄞州区】准考证｜鄞州区425公告
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:325a7a2ab9fdb723171b4cd4dff24f6f63d254d5@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260424T151800
+DTEND;TZID=Asia/Shanghai:20260424T161800
+SUMMARY:【高新区】面试｜高新区人才引进411公告
+DESCRIPTION:环节：面谈\n招录人数：7\n公告原文：http://www.nb
+ htz.gov.cn/col/col1229021956/art/2026/art_501481d31a2b4eaf95e754cf31317997
+ .html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以官方公
+ 告原文为准。
+URL:http://www.nbhtz.gov.cn/col/col1229021956/art/2026/art_501481d31a2b4eaf
+ 95e754cf31317997.html
+SEQUENCE:1
+CATEGORIES:高新区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【高新区】面试｜高新区人才引进411公告
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:107631a7d9aecb6fedfae3ba53dd8e7a312678f0@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260424T205000
+DTEND;TZID=Asia/Shanghai:20260430T205000
+SUMMARY:【市属】笔试出分｜市属411公告
+DESCRIPTION:环节：笔试出分\n招录人数：100\n公告原文：https
+ ://rsj.ningbo.gov.cn/col/col1229676737/art/2026/art_c1ccf453a9c0ed21cb53b2
+ a54826949e.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以
+ 官方公告原文为准。
+URL:https://rsj.ningbo.gov.cn/col/col1229676737/art/2026/art_c1ccf453a9c0ed
+ 21cb53b2a54826949e.html
+SEQUENCE:1
+CATEGORIES:市属
+END:VEVENT
+BEGIN:VEVENT
+UID:2d2e9d33106c4a8231c4ad70eeca1c27c404e6e1@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260425T090000
+DTEND;TZID=Asia/Shanghai:20260425T110000
+SUMMARY:【鄞州区】笔试｜鄞州区425公告
+DESCRIPTION:环节：笔试\n招录人数：13\n公告原文：https://www.
+ nbyz.gov.cn/col/col1229172679/art/2026/art_feba9b88988d4f4ab878320e50d630d
+ 4.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以官方公
+ 告原文为准。
+URL:https://www.nbyz.gov.cn/col/col1229172679/art/2026/art_feba9b88988d4f4a
+ b878320e50d630d4.html
+SEQUENCE:1
+CATEGORIES:鄞州区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【鄞州区】笔试｜鄞州区425公告
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9012c08a3adbd16ad999a29fa3f8ffd9f26bdff7@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260425T151600
+DTEND;TZID=Asia/Shanghai:20260425T161600
+SUMMARY:【高新区】资格复审｜高新区人才引进411公告
+DESCRIPTION:环节：资格复审\n招录人数：7\n公告原文：http://
+ www.nbhtz.gov.cn/col/col1229021956/art/2026/art_501481d31a2b4eaf95e754cf31
+ 317997.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以官
+ 方公告原文为准。
+URL:http://www.nbhtz.gov.cn/col/col1229021956/art/2026/art_501481d31a2b4eaf
+ 95e754cf31317997.html
+SEQUENCE:1
+CATEGORIES:高新区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【高新区】资格复审｜高新区人才引进411公告
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:764faf2449aae52ca44b8aad11231f15bfbd6eb1@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260425T194400
+DTEND;TZID=Asia/Shanghai:20260425T214400
+SUMMARY:【宁海县】笔试｜宁海县人才引进425公告
+DESCRIPTION:环节：笔试\n招录人数：20\n公告原文：https://www.
+ ninghai.gov.cn/col/col1229819567/art/2026/art_d3551efb6e984e8fabd12a11f0bb
+ 67fd.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以官方
+ 公告原文为准。
+URL:https://www.ninghai.gov.cn/col/col1229819567/art/2026/art_d3551efb6e984
+ e8fabd12a11f0bb67fd.html
+SEQUENCE:1
+CATEGORIES:宁海县
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【宁海县】笔试｜宁海县人才引进425公告
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0b599345ae22253e1f55cd6dbd1a236df6ba1bfc@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260428T093000
+DTEND;TZID=Asia/Shanghai:20260510T093000
+SUMMARY:【镇海区】准考证｜镇海区510公告
+DESCRIPTION:环节：准考证打印\n招录人数：28\n公告原文：htt
+ ps://www.zh.gov.cn/col/col1229822905/art/2026/art_7f583a19a1424210a981b541
+ dd34b059.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以
+ 官方公告原文为准。
+URL:https://www.zh.gov.cn/col/col1229822905/art/2026/art_7f583a19a1424210a9
+ 81b541dd34b059.html
+SEQUENCE:1
+CATEGORIES:镇海区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【镇海区】准考证｜镇海区510公告
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:276b4f75d08179af8714b74ac4b3779175723ecf@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260430T090000
+DTEND;TZID=Asia/Shanghai:20260430T160000
+SUMMARY:【象山县】再次报名｜象山县人才引进516公告
+DESCRIPTION:环节：查询并再次报名\n招录人数：20\n公告原文
+ ：https://www.xiangshan.gov.cn/col/col1229056720/art/2026/art_f9be5714ec2
+ 0204f811f21e5a14d5111.html\n来源：FlowUs 2026 归档（人工整理）\
+ n⚠️ 以官方公告原文为准。
+URL:https://www.xiangshan.gov.cn/col/col1229056720/art/2026/art_f9be5714ec2
+ 0204f811f21e5a14d5111.html
+SEQUENCE:1
+CATEGORIES:象山县
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【象山县】再次报名｜象山县人才引进516公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7a651295e421efd06a00ba03664895200c87dc46@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260506T090000
+DTEND;TZID=Asia/Shanghai:20260508T160000
+SUMMARY:【象山县】缴费确认｜象山县人才引进516公告
+DESCRIPTION:环节：缴费确认时间\n招录人数：20\n公告原文：
+ https://www.xiangshan.gov.cn/col/col1229056720/art/2026/art_f9be5714ec2020
+ 4f811f21e5a14d5111.html\n来源：FlowUs 2026 归档（人工整理）\n
+ ⚠️ 以官方公告原文为准。
+URL:https://www.xiangshan.gov.cn/col/col1229056720/art/2026/art_f9be5714ec2
+ 0204f811f21e5a14d5111.html
+SEQUENCE:1
+CATEGORIES:象山县
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【象山县】缴费确认｜象山县人才引进516公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b0a6ea90c288a123e1b2412332ec330ea628bca3@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260507T205000
+DTEND;TZID=Asia/Shanghai:20260515T205000
+SUMMARY:【市属】资格复审｜市属411公告
+DESCRIPTION:环节：资格复审\n招录人数：100\n公告原文：https
+ ://rsj.ningbo.gov.cn/col/col1229676737/art/2026/art_c1ccf453a9c0ed21cb53b2
+ a54826949e.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以
+ 官方公告原文为准。
+URL:https://rsj.ningbo.gov.cn/col/col1229676737/art/2026/art_c1ccf453a9c0ed
+ 21cb53b2a54826949e.html
+SEQUENCE:1
+CATEGORIES:市属
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【市属】资格复审｜市属411公告
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:67f9fb0e53064473bfdcabb6f909e8c5330aa59f@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260508T162400
+DTEND;TZID=Asia/Shanghai:20260508T172400
+SUMMARY:【宁海县】笔试出分｜宁海县人才引进425公告
+DESCRIPTION:环节：笔试出分\n招录人数：20\n公告原文：https:
+ //www.ninghai.gov.cn/col/col1229819567/art/2026/art_d3551efb6e984e8fabd12a
+ 11f0bb67fd.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以
+ 官方公告原文为准。
+URL:https://www.ninghai.gov.cn/col/col1229819567/art/2026/art_d3551efb6e984
+ e8fabd12a11f0bb67fd.html
+SEQUENCE:1
+CATEGORIES:宁海县
+END:VEVENT
+BEGIN:VEVENT
+UID:55116270ecb36fa8bf12af2b7787071e6010b20b@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260510T090000
+DTEND;TZID=Asia/Shanghai:20260510T110000
+SUMMARY:【镇海区】笔试｜镇海区510公告
+DESCRIPTION:环节：笔试\n招录人数：28\n公告原文：https://www.
+ zh.gov.cn/col/col1229822905/art/2026/art_7f583a19a1424210a981b541dd34b059.
+ html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以官方公
+ 告原文为准。
+URL:https://www.zh.gov.cn/col/col1229822905/art/2026/art_7f583a19a1424210a9
+ 81b541dd34b059.html
+SEQUENCE:1
+CATEGORIES:镇海区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【镇海区】笔试｜镇海区510公告
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c3a9b8e113ae7573061c4bb5f92d4f7b74671529@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260511T090000
+DTEND;TZID=Asia/Shanghai:20260515T160000
+SUMMARY:【海曙区】报名｜海曙区人才引进公告
+DESCRIPTION:环节：报名时间\n招录人数：20\n公告原文：https:
+ //www.haishu.gov.cn/col/col1229099904/art/2026/art_1283931a5bbf4568b8b6d3e
+ 21ab6333e.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以
+ 官方公告原文为准。
+URL:https://www.haishu.gov.cn/col/col1229099904/art/2026/art_1283931a5bbf45
+ 68b8b6d3e21ab6333e.html
+SEQUENCE:1
+CATEGORIES:海曙区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【海曙区】报名｜海曙区人才引进公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:91fa2dc2f15336462a00e66580bfb56ec253d466@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260514T090000
+DTEND;TZID=Asia/Shanghai:20260516T093000
+SUMMARY:【象山县】准考证｜象山县人才引进516公告
+DESCRIPTION:环节：准考证打印\n招录人数：20\n公告原文：htt
+ ps://www.xiangshan.gov.cn/col/col1229056720/art/2026/art_f9be5714ec20204f8
+ 11f21e5a14d5111.html\n来源：FlowUs 2026 归档（人工整理）\n⚠
+ ️ 以官方公告原文为准。
+URL:https://www.xiangshan.gov.cn/col/col1229056720/art/2026/art_f9be5714ec2
+ 0204f811f21e5a14d5111.html
+SEQUENCE:1
+CATEGORIES:象山县
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【象山县】准考证｜象山县人才引进516公告
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bc59a166979ead3cee6175027e63dba05c85bc18@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260516T000000
+DTEND;TZID=Asia/Shanghai:20260516T020000
+SUMMARY:【象山县】笔试｜象山县人才引进516公告
+DESCRIPTION:环节：笔试\n招录人数：20\n公告原文：https://www.
+ xiangshan.gov.cn/col/col1229056720/art/2026/art_f9be5714ec20204f811f21e5a1
+ 4d5111.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以官
+ 方公告原文为准。
+URL:https://www.xiangshan.gov.cn/col/col1229056720/art/2026/art_f9be5714ec2
+ 0204f811f21e5a14d5111.html
+SEQUENCE:1
+CATEGORIES:象山县
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【象山县】笔试｜象山县人才引进516公告
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:73d5cd17c1f9c5259b85bb98adc52fe346e7b8c1@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260516T090000
+DTEND;TZID=Asia/Shanghai:20260522T160000
+SUMMARY:【海曙区】资格初审｜海曙区人才引进公告
+DESCRIPTION:环节：资格初审时间\n招录人数：20\n公告原文：
+ https://www.haishu.gov.cn/col/col1229099904/art/2026/art_1283931a5bbf4568b
+ 8b6d3e21ab6333e.html\n来源：FlowUs 2026 归档（人工整理）\n⚠
+ ️ 以官方公告原文为准。
+URL:https://www.haishu.gov.cn/col/col1229099904/art/2026/art_1283931a5bbf45
+ 68b8b6d3e21ab6333e.html
+SEQUENCE:1
+CATEGORIES:海曙区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【海曙区】资格初审｜海曙区人才引进公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:04174d3c7ab241869f151a59fb25856712edae74@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260516T162500
+DTEND;TZID=Asia/Shanghai:20260516T172500
+SUMMARY:【宁海县】资格复审｜宁海县人才引进425公告
+DESCRIPTION:环节：资格确认\n招录人数：20\n公告原文：https:
+ //www.ninghai.gov.cn/col/col1229819567/art/2026/art_d3551efb6e984e8fabd12a
+ 11f0bb67fd.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以
+ 官方公告原文为准。
+URL:https://www.ninghai.gov.cn/col/col1229819567/art/2026/art_d3551efb6e984
+ e8fabd12a11f0bb67fd.html
+SEQUENCE:1
+CATEGORIES:宁海县
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【宁海县】资格复审｜宁海县人才引进425公告
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:261004883cf73cb3d41f4c8f58edbe3fbecf7870@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260516T162500
+DTEND;TZID=Asia/Shanghai:20260516T172500
+SUMMARY:【宁海县】面试｜宁海县人才引进425公告
+DESCRIPTION:环节：首轮面试（面谈）\n招录人数：20\n公告原
+ 文：https://www.ninghai.gov.cn/col/col1229819567/art/2026/art_d3551efb6e
+ 984e8fabd12a11f0bb67fd.html\n来源：FlowUs 2026 归档（人工整理）
+ \n⚠️ 以官方公告原文为准。
+URL:https://www.ninghai.gov.cn/col/col1229819567/art/2026/art_d3551efb6e984
+ e8fabd12a11f0bb67fd.html
+SEQUENCE:1
+CATEGORIES:宁海县
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【宁海县】面试｜宁海县人才引进425公告
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a1c40283f23c64c08c7cf67384707e3e3c392b7f@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260516T205000
+DTEND;TZID=Asia/Shanghai:20260516T215000
+SUMMARY:【市属】面试｜市属411公告
+DESCRIPTION:环节：面试\n招录人数：100\n公告原文：https://rsj
+ .ningbo.gov.cn/col/col1229676737/art/2026/art_c1ccf453a9c0ed21cb53b2a54826
+ 949e.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以官方
+ 公告原文为准。
+URL:https://rsj.ningbo.gov.cn/col/col1229676737/art/2026/art_c1ccf453a9c0ed
+ 21cb53b2a54826949e.html
+SEQUENCE:1
+CATEGORIES:市属
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【市属】面试｜市属411公告
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b266f051a34f9b17f1bf87d49bc690a7a5267861@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260519T220000
+DTEND;TZID=Asia/Shanghai:20260519T230000
+SUMMARY:【鄞州区】笔试出分｜鄞州区425公告
+DESCRIPTION:环节：笔试出分\n招录人数：13\n公告原文：https:
+ //www.nbyz.gov.cn/col/col1229172679/art/2026/art_feba9b88988d4f4ab878320e5
+ 0d630d4.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以官
+ 方公告原文为准。
+URL:https://www.nbyz.gov.cn/col/col1229172679/art/2026/art_feba9b88988d4f4a
+ b878320e50d630d4.html
+SEQUENCE:1
+CATEGORIES:鄞州区
+END:VEVENT
+BEGIN:VEVENT
+UID:44df19bb27ec9adda5279e5797c0038a59c6cd74@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260525T090000
+DTEND;TZID=Asia/Shanghai:20260525T160000
+SUMMARY:【海曙区】再次报名｜海曙区人才引进公告
+DESCRIPTION:环节：查询并再次报名\n招录人数：20\n公告原文
+ ：https://www.haishu.gov.cn/col/col1229099904/art/2026/art_1283931a5bbf45
+ 68b8b6d3e21ab6333e.html\n来源：FlowUs 2026 归档（人工整理）\n
+ ⚠️ 以官方公告原文为准。
+URL:https://www.haishu.gov.cn/col/col1229099904/art/2026/art_1283931a5bbf45
+ 68b8b6d3e21ab6333e.html
+SEQUENCE:1
+CATEGORIES:海曙区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【海曙区】再次报名｜海曙区人才引进公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5fa1d6b6a088bff264c5f98ecd5cba988bf11cfe@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260525T220100
+DTEND;TZID=Asia/Shanghai:20260525T230100
+SUMMARY:【镇海区】笔试出分｜镇海区510公告
+DESCRIPTION:环节：笔试出分\n招录人数：28\n公告原文：https:
+ //www.zh.gov.cn/col/col1229822905/art/2026/art_7f583a19a1424210a981b541dd3
+ 4b059.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以官
+ 方公告原文为准。
+URL:https://www.zh.gov.cn/col/col1229822905/art/2026/art_7f583a19a1424210a9
+ 81b541dd34b059.html
+SEQUENCE:1
+CATEGORIES:镇海区
+END:VEVENT
+BEGIN:VEVENT
+UID:a79754499135988fef77104457157f30f7abc727@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260525T220200
+DTEND;TZID=Asia/Shanghai:20260525T230200
+SUMMARY:【象山县】笔试出分｜象山县人才引进516公告
+DESCRIPTION:环节：笔试出分\n招录人数：20\n公告原文：https:
+ //www.xiangshan.gov.cn/col/col1229056720/art/2026/art_f9be5714ec20204f811f
+ 21e5a14d5111.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 
+ 以官方公告原文为准。
+URL:https://www.xiangshan.gov.cn/col/col1229056720/art/2026/art_f9be5714ec2
+ 0204f811f21e5a14d5111.html
+SEQUENCE:1
+CATEGORIES:象山县
+END:VEVENT
+BEGIN:VEVENT
+UID:52369da0731e4fa746d15332ba2ca980a5d6a6c3@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260526T090000
+DTEND;TZID=Asia/Shanghai:20260529T160000
+SUMMARY:【海曙区】缴费确认｜海曙区人才引进公告
+DESCRIPTION:环节：缴费确认时间\n招录人数：20\n公告原文：
+ https://www.haishu.gov.cn/col/col1229099904/art/2026/art_1283931a5bbf4568b
+ 8b6d3e21ab6333e.html\n来源：FlowUs 2026 归档（人工整理）\n⚠
+ ️ 以官方公告原文为准。
+URL:https://www.haishu.gov.cn/col/col1229099904/art/2026/art_1283931a5bbf45
+ 68b8b6d3e21ab6333e.html
+SEQUENCE:1
+CATEGORIES:海曙区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【海曙区】缴费确认｜海曙区人才引进公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:261070290e7ea10c5197a5ff1d86d934f4aca572@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260528T220000
+DTEND;TZID=Asia/Shanghai:20260528T230000
+SUMMARY:【鄞州区】资格复审｜鄞州区425公告
+DESCRIPTION:环节：资格复审\n招录人数：13\n公告原文：https:
+ //www.nbyz.gov.cn/col/col1229172679/art/2026/art_feba9b88988d4f4ab878320e5
+ 0d630d4.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以官
+ 方公告原文为准。
+URL:https://www.nbyz.gov.cn/col/col1229172679/art/2026/art_feba9b88988d4f4a
+ b878320e50d630d4.html
+SEQUENCE:1
+CATEGORIES:鄞州区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【鄞州区】资格复审｜鄞州区425公告
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:575f0bb9bbc39f46488a58a7a103e037864488a3@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260529T220100
+DTEND;TZID=Asia/Shanghai:20260529T230100
+SUMMARY:【镇海区】资格复审｜镇海区510公告
+DESCRIPTION:环节：资格复审\n招录人数：28\n公告原文：https:
+ //www.zh.gov.cn/col/col1229822905/art/2026/art_7f583a19a1424210a981b541dd3
+ 4b059.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以官
+ 方公告原文为准。
+URL:https://www.zh.gov.cn/col/col1229822905/art/2026/art_7f583a19a1424210a9
+ 81b541dd34b059.html
+SEQUENCE:1
+CATEGORIES:镇海区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【镇海区】资格复审｜镇海区510公告
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:51898f53480cd7822e23ad3d7a070c4a2524288c@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260530T171600
+DTEND;TZID=Asia/Shanghai:20260530T181600
+SUMMARY:【象山县】资格复审｜象山县人才引进516公告
+DESCRIPTION:环节：资格复审\n招录人数：20\n公告原文：https:
+ //www.xiangshan.gov.cn/col/col1229056720/art/2026/art_f9be5714ec20204f811f
+ 21e5a14d5111.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 
+ 以官方公告原文为准。
+URL:https://www.xiangshan.gov.cn/col/col1229056720/art/2026/art_f9be5714ec2
+ 0204f811f21e5a14d5111.html
+SEQUENCE:1
+CATEGORIES:象山县
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【象山县】资格复审｜象山县人才引进516公告
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d9cd660d936ce04f59b17eebfdb7f7cf3ddc247b@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260530T171600
+DTEND;TZID=Asia/Shanghai:20260530T181600
+SUMMARY:【象山县】面试｜象山县人才引进516公告
+DESCRIPTION:环节：第一轮面试（面谈）\n招录人数：20\n公告
+ 原文：https://www.xiangshan.gov.cn/col/col1229056720/art/2026/art_f9be5
+ 714ec20204f811f21e5a14d5111.html\n来源：FlowUs 2026 归档（人工整
+ 理）\n⚠️ 以官方公告原文为准。
+URL:https://www.xiangshan.gov.cn/col/col1229056720/art/2026/art_f9be5714ec2
+ 0204f811f21e5a14d5111.html
+SEQUENCE:1
+CATEGORIES:象山县
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【象山县】面试｜象山县人才引进516公告
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b767d53eeee819051d6531acc078dd4e45d538c7@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260530T220100
+DTEND;TZID=Asia/Shanghai:20260530T230100
+SUMMARY:【鄞州区】面试｜鄞州区425公告
+DESCRIPTION:环节：面试\n招录人数：13\n公告原文：https://www.
+ nbyz.gov.cn/col/col1229172679/art/2026/art_feba9b88988d4f4ab878320e50d630d
+ 4.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以官方公
+ 告原文为准。
+URL:https://www.nbyz.gov.cn/col/col1229172679/art/2026/art_feba9b88988d4f4a
+ b878320e50d630d4.html
+SEQUENCE:1
+CATEGORIES:鄞州区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【鄞州区】面试｜鄞州区425公告
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:22fd065f3a902b26346d19b54da4ddcff0c50bdb@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260531T171600
+DTEND;TZID=Asia/Shanghai:20260531T181600
+SUMMARY:【象山县】第二轮面试｜象山县人才引进516公告
+DESCRIPTION:环节：第二轮面试\n招录人数：20\n公告原文：htt
+ ps://www.xiangshan.gov.cn/col/col1229056720/art/2026/art_f9be5714ec20204f8
+ 11f21e5a14d5111.html\n来源：FlowUs 2026 归档（人工整理）\n⚠
+ ️ 以官方公告原文为准。
+URL:https://www.xiangshan.gov.cn/col/col1229056720/art/2026/art_f9be5714ec2
+ 0204f811f21e5a14d5111.html
+SEQUENCE:1
+CATEGORIES:象山县
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【象山县】第二轮面试｜象山县人才引进516公告
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:42baaa1725476588da0c5ff1a82b8611a198d57f@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260531T174700
+DTEND;TZID=Asia/Shanghai:20260531T184700
+SUMMARY:【镇海区】面试｜镇海区510公告
+DESCRIPTION:环节：面试\n招录人数：28\n公告原文：https://www.
+ zh.gov.cn/col/col1229822905/art/2026/art_7f583a19a1424210a981b541dd34b059.
+ html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以官方公
+ 告原文为准。
+URL:https://www.zh.gov.cn/col/col1229822905/art/2026/art_7f583a19a1424210a9
+ 81b541dd34b059.html
+SEQUENCE:1
+CATEGORIES:镇海区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【镇海区】面试｜镇海区510公告
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:535122255db28201112a9a51920c9911836f78b0@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260608T090000
+DTEND;TZID=Asia/Shanghai:20260612T160000
+SUMMARY:【市属】报名｜市属627公告
+DESCRIPTION:环节：报名时间\n招录人数：15\n来源：FlowUs 2026 
+ 归档（人工整理）\n⚠️ 以官方公告原文为准。
+SEQUENCE:1
+CATEGORIES:市属
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【市属】报名｜市属627公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4888a03c625780a641181df657df7baf35f92e83@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260613T090000
+DTEND;TZID=Asia/Shanghai:20260614T160000
+SUMMARY:【市属】资格初审｜市属627公告
+DESCRIPTION:环节：资格初审时间\n招录人数：15\n来源：FlowUs
+  2026 归档（人工整理）\n⚠️ 以官方公告原文为准。
+SEQUENCE:1
+CATEGORIES:市属
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【市属】资格初审｜市属627公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:db7b7f1bb98e74d6a4b18bf9bf068689aa826003@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260615T090000
+DTEND;TZID=Asia/Shanghai:20260615T160000
+SUMMARY:【市属】再次报名｜市属627公告
+DESCRIPTION:环节：查询并再次报名\n招录人数：15\n来源：Flo
+ wUs 2026 归档（人工整理）\n⚠️ 以官方公告原文为准。
+SEQUENCE:1
+CATEGORIES:市属
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【市属】再次报名｜市属627公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c607b3bd4eb97fe440b8cffab2910b7aacaed444@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260616T090000
+DTEND;TZID=Asia/Shanghai:20260618T160000
+SUMMARY:【市属】缴费确认｜市属627公告
+DESCRIPTION:环节：缴费确认时间\n招录人数：15\n来源：FlowUs
+  2026 归档（人工整理）\n⚠️ 以官方公告原文为准。
+SEQUENCE:1
+CATEGORIES:市属
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【市属】缴费确认｜市属627公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d3337f631d8f689afc7c5571fcc1ef8ef550e92b@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260624T090000
+DTEND;TZID=Asia/Shanghai:20260627T093000
+SUMMARY:【海曙区】准考证｜海曙区人才引进公告
+DESCRIPTION:环节：准考证打印\n招录人数：20\n公告原文：htt
+ ps://www.haishu.gov.cn/col/col1229099904/art/2026/art_1283931a5bbf4568b8b6
+ d3e21ab6333e.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 
+ 以官方公告原文为准。
+URL:https://www.haishu.gov.cn/col/col1229099904/art/2026/art_1283931a5bbf45
+ 68b8b6d3e21ab6333e.html
+SEQUENCE:1
+CATEGORIES:海曙区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【海曙区】准考证｜海曙区人才引进公告
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:74d5ed47b11be3d5154a66addd5e61de873e1e43@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260625T090000
+DTEND;TZID=Asia/Shanghai:20260627T093000
+SUMMARY:【市属】准考证｜市属627公告
+DESCRIPTION:环节：准考证打印\n招录人数：15\n来源：FlowUs 20
+ 26 归档（人工整理）\n⚠️ 以官方公告原文为准。
+SEQUENCE:1
+CATEGORIES:市属
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【市属】准考证｜市属627公告
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8b4cb4e9e3d378c6e5a519491be89f4ff3bb7be1@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260627T090000
+DTEND;TZID=Asia/Shanghai:20260627T110000
+SUMMARY:【市属】笔试｜市属627公告
+DESCRIPTION:环节：笔试\n招录人数：15\n来源：FlowUs 2026 归档
+ （人工整理）\n⚠️ 以官方公告原文为准。
+SEQUENCE:1
+CATEGORIES:市属
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【市属】笔试｜市属627公告
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7ea07756fad7754f0288e91399ec7cbc7155b04f@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260627T090000
+DTEND;TZID=Asia/Shanghai:20260627T110000
+SUMMARY:【海曙区】笔试｜海曙区人才引进公告
+DESCRIPTION:环节：笔试\n招录人数：20\n公告原文：https://www.
+ haishu.gov.cn/col/col1229099904/art/2026/art_1283931a5bbf4568b8b6d3e21ab63
+ 33e.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以官方
+ 公告原文为准。
+URL:https://www.haishu.gov.cn/col/col1229099904/art/2026/art_1283931a5bbf45
+ 68b8b6d3e21ab6333e.html
+SEQUENCE:1
+CATEGORIES:海曙区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【海曙区】笔试｜海曙区人才引进公告
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:58429ef438f65bfc2ca60031d9ffd2bb2666fdbf@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260707T204400
+DTEND;TZID=Asia/Shanghai:20260707T214400
+SUMMARY:【市属】笔试出分｜市属627公告
+DESCRIPTION:环节：笔试出分\n招录人数：15\n来源：FlowUs 2026 
+ 归档（人工整理）\n⚠️ 以官方公告原文为准。
+SEQUENCE:1
+CATEGORIES:市属
+END:VEVENT
+BEGIN:VEVENT
+UID:7319838995a83345447291126b1a2922cb948788@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260713T145200
+DTEND;TZID=Asia/Shanghai:20260713T155200
+SUMMARY:【海曙区】笔试出分｜海曙区人才引进公告
+DESCRIPTION:环节：笔试出分\n招录人数：20\n公告原文：https:
+ //www.haishu.gov.cn/col/col1229099904/art/2026/art_1283931a5bbf4568b8b6d3e
+ 21ab6333e.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以
+ 官方公告原文为准。
+URL:https://www.haishu.gov.cn/col/col1229099904/art/2026/art_1283931a5bbf45
+ 68b8b6d3e21ab6333e.html
+SEQUENCE:1
+CATEGORIES:海曙区
+END:VEVENT
+BEGIN:VEVENT
+UID:2040778d8c61867dfb2c103f9db2cfac26b30166@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260724T145200
+DTEND;TZID=Asia/Shanghai:20260724T155200
+SUMMARY:【海曙区】资格复审｜海曙区人才引进公告
+DESCRIPTION:环节：资格复审\n招录人数：20\n公告原文：https:
+ //www.haishu.gov.cn/col/col1229099904/art/2026/art_1283931a5bbf4568b8b6d3e
+ 21ab6333e.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以
+ 官方公告原文为准。
+URL:https://www.haishu.gov.cn/col/col1229099904/art/2026/art_1283931a5bbf45
+ 68b8b6d3e21ab6333e.html
+SEQUENCE:1
+CATEGORIES:海曙区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【海曙区】资格复审｜海曙区人才引进公告
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c6fed2657773264094f968c14daae9f07e3b1f91@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260724T204500
+DTEND;TZID=Asia/Shanghai:20260724T214500
+SUMMARY:【市属】资格复审｜市属627公告
+DESCRIPTION:环节：资格复审\n招录人数：15\n来源：FlowUs 2026 
+ 归档（人工整理）\n⚠️ 以官方公告原文为准。
+SEQUENCE:1
+CATEGORIES:市属
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【市属】资格复审｜市属627公告
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:597780afae6000ca48a9a7a4155199034095d753@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260725T204600
+DTEND;TZID=Asia/Shanghai:20260725T214600
+SUMMARY:【市属】面试｜市属627公告
+DESCRIPTION:环节：面试\n招录人数：15\n来源：FlowUs 2026 归档
+ （人工整理）\n⚠️ 以官方公告原文为准。
+SEQUENCE:1
+CATEGORIES:市属
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【市属】面试｜市属627公告
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:446a04fc25eebbec309189a4617e1842e14a6348@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260727T090000
+DTEND;TZID=Asia/Shanghai:20260731T160000
+SUMMARY:【鄞州区】报名｜鄞州区815公告
+DESCRIPTION:环节：报名时间\n招录人数：5\n公告原文：https:/
+ /www.nbyz.gov.cn/col/col1229172679/art/2026/art_17facc69c8424cac97e82d5dd5
+ 7cb638.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以官
+ 方公告原文为准。
+URL:https://www.nbyz.gov.cn/col/col1229172679/art/2026/art_17facc69c8424cac
+ 97e82d5dd57cb638.html
+SEQUENCE:1
+CATEGORIES:鄞州区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【鄞州区】报名｜鄞州区815公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cb8c14f59dac4b966aad6ecf20446d243ce59318@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260801T145200
+DTEND;TZID=Asia/Shanghai:20260801T155200
+SUMMARY:【海曙区】面试｜海曙区人才引进公告
+DESCRIPTION:环节：面谈\n招录人数：20\n公告原文：https://www.
+ haishu.gov.cn/col/col1229099904/art/2026/art_1283931a5bbf4568b8b6d3e21ab63
+ 33e.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 以官方
+ 公告原文为准。
+URL:https://www.haishu.gov.cn/col/col1229099904/art/2026/art_1283931a5bbf45
+ 68b8b6d3e21ab6333e.html
+SEQUENCE:1
+CATEGORIES:海曙区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【海曙区】面试｜海曙区人才引进公告
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3282091c0b96dc2e45cfe53992d37f6de01c457f@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260803T090000
+DTEND;TZID=Asia/Shanghai:20260804T160000
+SUMMARY:【鄞州区】资格初审｜鄞州区815公告
+DESCRIPTION:环节：资格初审时间\n招录人数：5\n公告原文：h
+ ttps://www.nbyz.gov.cn/col/col1229172679/art/2026/art_17facc69c8424cac97e8
+ 2d5dd57cb638.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 
+ 以官方公告原文为准。
+URL:https://www.nbyz.gov.cn/col/col1229172679/art/2026/art_17facc69c8424cac
+ 97e82d5dd57cb638.html
+SEQUENCE:1
+CATEGORIES:鄞州区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【鄞州区】资格初审｜鄞州区815公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c6b764726987eefc0b9cdcdb80b1eb2a4f5d5511@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260805T090000
+DTEND;TZID=Asia/Shanghai:20260805T160000
+SUMMARY:【鄞州区】再次报名｜鄞州区815公告
+DESCRIPTION:环节：查询并再次报名\n招录人数：5\n公告原文
+ ：https://www.nbyz.gov.cn/col/col1229172679/art/2026/art_17facc69c8424cac
+ 97e82d5dd57cb638.html\n来源：FlowUs 2026 归档（人工整理）\n⚠
+ ️ 以官方公告原文为准。
+URL:https://www.nbyz.gov.cn/col/col1229172679/art/2026/art_17facc69c8424cac
+ 97e82d5dd57cb638.html
+SEQUENCE:1
+CATEGORIES:鄞州区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【鄞州区】再次报名｜鄞州区815公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4412549db923b2f0ff5df44e5c55954b841f1ca0@ningbo-exam-cal
+DTSTAMP:20261001T221627
+DTSTART;TZID=Asia/Shanghai:20260806T090000
+DTEND;TZID=Asia/Shanghai:20260807T160000
+SUMMARY:【鄞州区】缴费确认｜鄞州区815公告
+DESCRIPTION:环节：缴费确认时间\n招录人数：5\n公告原文：h
+ ttps://www.nbyz.gov.cn/col/col1229172679/art/2026/art_17facc69c8424cac97e8
+ 2d5dd57cb638.html\n来源：FlowUs 2026 归档（人工整理）\n⚠️ 
+ 以官方公告原文为准。
+URL:https://www.nbyz.gov.cn/col/col1229172679/art/2026/art_17facc69c8424cac
+ 97e82d5dd57cb638.html
+SEQUENCE:1
+CATEGORIES:鄞州区
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【鄞州区】缴费确认｜鄞州区815公告
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

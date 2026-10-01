@@ -1,0 +1,1590 @@
+[
+ {
+  "id": "52162bca-502b-4705-adce-e847f31ea1a8",
+  "title": "高新区人才引进411公告",
+  "region": "高新区",
+  "parent": null,
+  "headcount": 7,
+  "start": {
+   "start": "2026/03/02T20:37:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": "http://www.nbhtz.gov.cn/col/col1229021956/art/2026/art_501481d31a2b4eaf95e754cf31317997.html"
+ },
+ {
+  "id": "336b65b2-4cb2-4618-8dba-08edb46a6143",
+  "title": "报名时间",
+  "region": "高新区",
+  "parent": "52162bca-502b-4705-adce-e847f31ea1a8",
+  "headcount": null,
+  "start": {
+   "start": "2026/03/05T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/03/24T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "8c7cabb1-ef3c-48d5-8576-7b615619ffa8",
+  "title": "资格初审",
+  "region": "高新区",
+  "parent": "52162bca-502b-4705-adce-e847f31ea1a8",
+  "headcount": null,
+  "start": {
+   "start": "2026/03/07T00:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/03/24T00:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "2104e4e5-bdf0-47db-90c4-5d140ed64e27",
+  "title": "市属411公告",
+  "region": "市属",
+  "parent": null,
+  "headcount": 100,
+  "start": {
+   "start": "2026/03/10T21:39:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": "https://rsj.ningbo.gov.cn/col/col1229676737/art/2026/art_c1ccf453a9c0ed21cb53b2a54826949e.html"
+ },
+ {
+  "id": "f2da1660-7043-41e3-b13c-9ba112989fd8",
+  "title": "报名时间",
+  "region": "市属",
+  "parent": "2104e4e5-bdf0-47db-90c4-5d140ed64e27",
+  "headcount": null,
+  "start": {
+   "start": "2026/03/13T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/03/19T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "b902392a-5aba-47e8-9dca-9a3bf2886a6f",
+  "title": "现场报名",
+  "region": "高新区",
+  "parent": "52162bca-502b-4705-adce-e847f31ea1a8",
+  "headcount": null,
+  "start": {
+   "start": "2026/03/17T19:20:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/03/21T19:20:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": "http://www.nbhtz.gov.cn/col/col1229021956/art/2026/art_d5d4edaf606d417a9ac5350d05249f85.html"
+ },
+ {
+  "id": "43dfa982-78aa-44c5-b5e9-01334a682c5d",
+  "title": "镇海区510公告",
+  "region": "镇海区",
+  "parent": null,
+  "headcount": 28,
+  "start": {
+   "start": "2026/03/20T19:11:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": "https://www.zh.gov.cn/col/col1229822905/art/2026/art_7f583a19a1424210a981b541dd34b059.html"
+ },
+ {
+  "id": "95abde8b-27d6-4ea9-b7cb-9732d75f3f4c",
+  "title": "资格初审",
+  "region": "市属",
+  "parent": "2104e4e5-bdf0-47db-90c4-5d140ed64e27",
+  "headcount": null,
+  "start": {
+   "start": "2026/03/20T00:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/03/23T00:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "4e87ce00-c13b-4c02-9d63-a903c0cd626a",
+  "title": "镇海区人才引进4.8公告",
+  "region": "镇海区",
+  "parent": null,
+  "headcount": 22,
+  "start": {
+   "start": "2026/03/20T19:11:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": "https://www.zh.gov.cn/col/col1229822905/art/2026/art_7f583a19a1424210a981b541dd34b059.html"
+ },
+ {
+  "id": "3d5011fa-80bf-4ef7-9ca2-9811285dc323",
+  "title": "报名时间",
+  "region": "镇海区",
+  "parent": "43dfa982-78aa-44c5-b5e9-01334a682c5d",
+  "headcount": null,
+  "start": {
+   "start": "2026/03/24T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/03/30T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "28afeeb4-5d76-45ae-8fce-cfcf1a1d99c2",
+  "title": "查询并再次报名",
+  "region": "市属",
+  "parent": "2104e4e5-bdf0-47db-90c4-5d140ed64e27",
+  "headcount": null,
+  "start": {
+   "start": "2026/03/24T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/03/24T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "75b48af1-8a3d-4ab3-857c-8e97173f0537",
+  "title": "报名时间",
+  "region": "镇海区",
+  "parent": "4e87ce00-c13b-4c02-9d63-a903c0cd626a",
+  "headcount": null,
+  "start": {
+   "start": "2026/03/24T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/03/30T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "9eb2d27d-5c74-410c-a423-4e5343575cad",
+  "title": "缴费确认时间",
+  "region": "市属",
+  "parent": "2104e4e5-bdf0-47db-90c4-5d140ed64e27",
+  "headcount": null,
+  "start": {
+   "start": "2026/03/25T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/03/26T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "a7a52a8a-ab15-4335-ac96-0db162722c29",
+  "title": "查询并再次报名",
+  "region": "高新区",
+  "parent": "52162bca-502b-4705-adce-e847f31ea1a8",
+  "headcount": null,
+  "start": {
+   "start": "2026/03/25T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/03/25T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "123c0a9a-599a-46c1-b925-9053763fe2a3",
+  "title": "查询并再次报名",
+  "region": "镇海区",
+  "parent": "43dfa982-78aa-44c5-b5e9-01334a682c5d",
+  "headcount": null,
+  "start": {
+   "start": "2026/04/01T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/04/01T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "920b009c-5387-4b15-8fbf-17c6a7a9c551",
+  "title": "查询并再次报名",
+  "region": "镇海区",
+  "parent": "4e87ce00-c13b-4c02-9d63-a903c0cd626a",
+  "headcount": null,
+  "start": {
+   "start": "2026/04/01T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/04/01T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "dc37a98f-44a5-44aa-813b-89a1d6266d9c",
+  "title": "鄞州区425公告",
+  "region": "鄞州区",
+  "parent": null,
+  "headcount": 13,
+  "start": {
+   "start": "2026/04/02T10:35:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": "https://www.nbyz.gov.cn/col/col1229172679/art/2026/art_feba9b88988d4f4ab878320e50d630d4.html"
+ },
+ {
+  "id": "0ca91954-8c17-4929-8299-70a0a1220355",
+  "title": "宁海县人才引进425公告",
+  "region": "宁海县",
+  "parent": null,
+  "headcount": 20,
+  "start": {
+   "start": "2026/04/02",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": "https://www.ninghai.gov.cn/col/col1229819567/art/2026/art_d3551efb6e984e8fabd12a11f0bb67fd.html"
+ },
+ {
+  "id": "420d48bc-3c06-4292-b9cc-d454aa28724a",
+  "title": "缴费确认时间",
+  "region": "镇海区",
+  "parent": "43dfa982-78aa-44c5-b5e9-01334a682c5d",
+  "headcount": null,
+  "start": {
+   "start": "2026/04/02T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/04/02T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "67ac6567-ba0d-4999-94ce-40f5acd2fda0",
+  "title": "缴费确认时间",
+  "region": "镇海区",
+  "parent": "4e87ce00-c13b-4c02-9d63-a903c0cd626a",
+  "headcount": null,
+  "start": {
+   "start": "2026/04/02T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/04/02T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "ffb17451-2236-4fbd-9504-5f30f2a57dca",
+  "title": "准考证打印",
+  "region": "镇海区",
+  "parent": "4e87ce00-c13b-4c02-9d63-a903c0cd626a",
+  "headcount": null,
+  "start": {
+   "start": "2026/04/03T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/04/08T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "18fd9d5d-eed1-4fac-ba58-fbe4ba214869",
+  "title": "准考证打印",
+  "region": "高新区",
+  "parent": "52162bca-502b-4705-adce-e847f31ea1a8",
+  "headcount": null,
+  "start": {
+   "start": "2026/04/06T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/04/11T09:30:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": "http://www.nbhtz.gov.cn/col/col1229021956/art/2026/art_5755102d15cf45e7b82b281dc0c1346a.html"
+ },
+ {
+  "id": "c5cd1727-d5d9-4809-b057-f7e0e7262d58",
+  "title": "报名时间",
+  "region": "鄞州区",
+  "parent": "dc37a98f-44a5-44aa-813b-89a1d6266d9c",
+  "headcount": null,
+  "start": {
+   "start": "2026/04/07T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/04/13T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "1bf59bad-9bf9-4502-9962-61655fa53948",
+  "title": "报名时间",
+  "region": "宁海县",
+  "parent": "0ca91954-8c17-4929-8299-70a0a1220355",
+  "headcount": null,
+  "start": {
+   "start": "2026/04/07T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/04/13T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "39b6d50d-3d0f-4f82-aa78-79265ba7ed56",
+  "title": "资格审核（面谈）",
+  "region": "镇海区",
+  "parent": "4e87ce00-c13b-4c02-9d63-a903c0cd626a",
+  "headcount": null,
+  "start": {
+   "start": "2026/04/08T12:41:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": null
+ },
+ {
+  "id": "3e00cb7e-1271-439d-b632-e665587700d2",
+  "title": "笔试",
+  "region": "镇海区",
+  "parent": "4e87ce00-c13b-4c02-9d63-a903c0cd626a",
+  "headcount": null,
+  "start": {
+   "start": "2026/04/08T12:39:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": null
+ },
+ {
+  "id": "2c4c5901-3822-4ec4-bff5-f7bb0cc0fc5c",
+  "title": "笔试出分",
+  "region": "镇海区",
+  "parent": "4e87ce00-c13b-4c02-9d63-a903c0cd626a",
+  "headcount": null,
+  "start": {
+   "start": "2026/04/08T12:42:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": "https://www.zh.gov.cn/col/col1229822905/art/2026/art_852a37af710e467090cf4d2e9b027f00.html"
+ },
+ {
+  "id": "b6b6d9f7-f1a5-4f68-9a0f-117a934ceb38",
+  "title": "准考证打印",
+  "region": "市属",
+  "parent": "2104e4e5-bdf0-47db-90c4-5d140ed64e27",
+  "headcount": null,
+  "start": {
+   "start": "2026/04/08T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/04/11T09:30:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "240c4d04-4261-4927-b150-6d70ed573573",
+  "title": "资格审核时间",
+  "region": "宁海县",
+  "parent": "0ca91954-8c17-4929-8299-70a0a1220355",
+  "headcount": null,
+  "start": {
+   "start": "2026/04/08T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/04/14T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "6c7d2b4f-56f5-4a2e-812c-3eb4a4f8c7f5",
+  "title": "面试",
+  "region": "镇海区",
+  "parent": "4e87ce00-c13b-4c02-9d63-a903c0cd626a",
+  "headcount": null,
+  "start": {
+   "start": "2026/04/09T12:38:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": "https://www.zh.gov.cn/col/col1229822905/art/2026/art_d0f05554dbd24af2b84891cdbecde152.html"
+ },
+ {
+  "id": "1c2f5e45-49cb-45f9-80dc-47e94f8eeaa9",
+  "title": "笔试",
+  "region": "市属",
+  "parent": "2104e4e5-bdf0-47db-90c4-5d140ed64e27",
+  "headcount": null,
+  "start": {
+   "start": "2026/04/11T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/04/11T11:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "724e4a54-7b88-4559-8514-c312c1ab7f69",
+  "title": "笔试",
+  "region": "高新区",
+  "parent": "52162bca-502b-4705-adce-e847f31ea1a8",
+  "headcount": null,
+  "start": {
+   "start": "2026/04/11T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/04/11T11:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "d4e3fd85-dbc5-4176-af12-f5dd30e2cc89",
+  "title": "资格初审时间",
+  "region": "鄞州区",
+  "parent": "dc37a98f-44a5-44aa-813b-89a1d6266d9c",
+  "headcount": null,
+  "start": {
+   "start": "2026/04/14T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/04/15T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "ffc444ab-c1d6-4e84-978a-6a933bb6babc",
+  "title": "查询并再次报名",
+  "region": "宁海县",
+  "parent": "0ca91954-8c17-4929-8299-70a0a1220355",
+  "headcount": null,
+  "start": {
+   "start": "2026/04/15T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/04/15T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "6c647467-6845-45e6-9523-e22693f2179e",
+  "title": "查询并再次报名",
+  "region": "鄞州区",
+  "parent": "dc37a98f-44a5-44aa-813b-89a1d6266d9c",
+  "headcount": null,
+  "start": {
+   "start": "2026/04/16T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/04/16T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "0eb323e1-2e87-4a9d-b1d2-7ada0704649d",
+  "title": "缴费确认时间",
+  "region": "宁海县",
+  "parent": "0ca91954-8c17-4929-8299-70a0a1220355",
+  "headcount": null,
+  "start": {
+   "start": "2026/04/16T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/04/17T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "e80f1e1a-377d-4263-95ff-3e29e2e010fd",
+  "title": "象山县人才引进516公告",
+  "region": "象山县",
+  "parent": null,
+  "headcount": 20,
+  "start": {
+   "start": "2026/04/17T17:10:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": "https://www.xiangshan.gov.cn/col/col1229056720/art/2026/art_f9be5714ec20204f811f21e5a14d5111.html"
+ },
+ {
+  "id": "58480f8e-61a9-4b11-bf76-8b61959690c5",
+  "title": "市属627公告",
+  "region": "市属",
+  "parent": null,
+  "headcount": 15,
+  "start": {
+   "start": "2026/06/04T11:19:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": null
+ },
+ {
+  "id": "30a246d8-59d0-4815-9a70-feac6075c849",
+  "title": "海曙区人才引进公告",
+  "region": "海曙区",
+  "parent": null,
+  "headcount": 20,
+  "start": {
+   "start": "2026/05/08T16:37:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": "https://www.haishu.gov.cn/col/col1229099904/art/2026/art_1283931a5bbf4568b8b6d3e21ab6333e.html"
+ },
+ {
+  "id": "676df014-25c5-4e51-a242-852705dab5b6",
+  "title": "鄞州区815公告",
+  "region": "鄞州区",
+  "parent": null,
+  "headcount": 5,
+  "start": {
+   "start": "2026/07/23T19:17:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": "https://www.nbyz.gov.cn/col/col1229172679/art/2026/art_17facc69c8424cac97e82d5dd57cb638.html"
+ },
+ {
+  "id": "5b9d518e-ccf0-4eb2-a111-28cc432b778f",
+  "title": "缴费确认时间",
+  "region": "鄞州区",
+  "parent": "dc37a98f-44a5-44aa-813b-89a1d6266d9c",
+  "headcount": null,
+  "start": {
+   "start": "2026/04/17T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/04/20T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "14adffd0-ba11-440b-a6cf-5e22a015b63f",
+  "title": "笔试出分",
+  "region": "高新区",
+  "parent": "52162bca-502b-4705-adce-e847f31ea1a8",
+  "headcount": null,
+  "start": {
+   "start": "2026/04/22T15:16:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": "http://www.nbhtz.gov.cn/col/col1229021956/art/2026/art_af9403575159495fa0479805cdfb27d9.html"
+ },
+ {
+  "id": "14d4741d-55e1-4c06-b221-8435f1924262",
+  "title": "准考证打印",
+  "region": "宁海县",
+  "parent": "0ca91954-8c17-4929-8299-70a0a1220355",
+  "headcount": null,
+  "start": {
+   "start": "2026/04/22T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/04/25T10:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "598cb94f-8ca1-459b-97f4-50394ccbcfb2",
+  "title": "报名时间",
+  "region": "象山县",
+  "parent": "e80f1e1a-377d-4263-95ff-3e29e2e010fd",
+  "headcount": null,
+  "start": {
+   "start": "2026/04/22T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/04/28T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "6f1ccd8a-6e7d-4029-be23-d1d27f4e59f8",
+  "title": "资格初审时间",
+  "region": "象山县",
+  "parent": "e80f1e1a-377d-4263-95ff-3e29e2e010fd",
+  "headcount": null,
+  "start": {
+   "start": "2026/04/22T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/04/29T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "f52dd8b3-5fb7-4ebd-ae06-269f496ca565",
+  "title": "准考证打印",
+  "region": "鄞州区",
+  "parent": "dc37a98f-44a5-44aa-813b-89a1d6266d9c",
+  "headcount": null,
+  "start": {
+   "start": "2026/04/23T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/04/25T09:30:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "a051a830-1dfb-4f67-9ad7-bad354d6ee54",
+  "title": "面谈",
+  "region": "高新区",
+  "parent": "52162bca-502b-4705-adce-e847f31ea1a8",
+  "headcount": null,
+  "start": {
+   "start": "2026/04/24T15:18:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": "http://www.nbhtz.gov.cn/col/col1229021956/art/2026/art_6ff4c0d855c148d6b38f6f597f7b0120.html"
+ },
+ {
+  "id": "4d4389b7-4495-4969-a3b2-8bd051ba5d46",
+  "title": "笔试出分",
+  "region": "市属",
+  "parent": "2104e4e5-bdf0-47db-90c4-5d140ed64e27",
+  "headcount": null,
+  "start": {
+   "start": "2026/04/24T20:50:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/04/30T20:50:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "046e08b9-2abb-4efa-a695-ea68a24f61ad",
+  "title": "资格复审",
+  "region": "高新区",
+  "parent": "52162bca-502b-4705-adce-e847f31ea1a8",
+  "headcount": null,
+  "start": {
+   "start": "2026/04/25T15:16:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": null
+ },
+ {
+  "id": "e8c2d49d-a6bf-425b-982d-845185ef67be",
+  "title": "面试",
+  "region": "高新区",
+  "parent": "52162bca-502b-4705-adce-e847f31ea1a8",
+  "headcount": null,
+  "start": {
+   "start": "2026/04/25T00:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": null
+ },
+ {
+  "id": "a4e99787-6e76-4b55-add4-395ee03994c8",
+  "title": "笔试",
+  "region": "宁海县",
+  "parent": "0ca91954-8c17-4929-8299-70a0a1220355",
+  "headcount": null,
+  "start": {
+   "start": "2026/04/25T19:44:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": null
+ },
+ {
+  "id": "0208755d-6c91-4c94-b87e-9cd38554509d",
+  "title": "笔试",
+  "region": "鄞州区",
+  "parent": "dc37a98f-44a5-44aa-813b-89a1d6266d9c",
+  "headcount": null,
+  "start": {
+   "start": "2026/04/25T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/04/25T11:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "5cadf844-4027-4983-ab66-c73d22780c0f",
+  "title": "准考证打印",
+  "region": "镇海区",
+  "parent": "43dfa982-78aa-44c5-b5e9-01334a682c5d",
+  "headcount": null,
+  "start": {
+   "start": "2026/04/28T09:30:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/05/10T09:30:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": "https://www.zh.gov.cn/col/col1229822905/art/2026/art_ef99fb6f6fd840aeade0736ad66d4ad1.html"
+ },
+ {
+  "id": "38a00249-52cb-4b2a-aa98-c91c4697a473",
+  "title": "查询并再次报名",
+  "region": "象山县",
+  "parent": "e80f1e1a-377d-4263-95ff-3e29e2e010fd",
+  "headcount": null,
+  "start": {
+   "start": "2026/04/30T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/04/30T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "90c3cdf3-a4e5-4f8f-869f-982755557c06",
+  "title": "缴费确认时间",
+  "region": "象山县",
+  "parent": "e80f1e1a-377d-4263-95ff-3e29e2e010fd",
+  "headcount": null,
+  "start": {
+   "start": "2026/05/06T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/05/08T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "06aea837-cccc-4b25-8d1d-9ca6614c6226",
+  "title": "资格复审",
+  "region": "市属",
+  "parent": "2104e4e5-bdf0-47db-90c4-5d140ed64e27",
+  "headcount": null,
+  "start": {
+   "start": "2026/05/07T20:50:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/05/15T20:50:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "701a5416-d068-45ff-9b83-36154bc6f6e1",
+  "title": "笔试出分",
+  "region": "宁海县",
+  "parent": "0ca91954-8c17-4929-8299-70a0a1220355",
+  "headcount": null,
+  "start": {
+   "start": "2026/05/08T16:24:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": "https://www.ninghai.gov.cn/col/col1229819567/art/2026/art_cbc5f2edafc648fd9b943bddceb34585.html"
+ },
+ {
+  "id": "76b66c46-80d7-43b0-8141-a3f8857b7e46",
+  "title": "笔试",
+  "region": "镇海区",
+  "parent": "43dfa982-78aa-44c5-b5e9-01334a682c5d",
+  "headcount": null,
+  "start": {
+   "start": "2026/05/10T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/05/10T11:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "b6a0e189-00fb-47c8-b207-d19d26673dc4",
+  "title": "准考证打印",
+  "region": "象山县",
+  "parent": "e80f1e1a-377d-4263-95ff-3e29e2e010fd",
+  "headcount": null,
+  "start": {
+   "start": "2026/05/14T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/05/16T09:30:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "4fff69ff-23c7-4a87-a487-e7602a866c4d",
+  "title": "面试",
+  "region": "市属",
+  "parent": "2104e4e5-bdf0-47db-90c4-5d140ed64e27",
+  "headcount": null,
+  "start": {
+   "start": "2026/05/16T20:50:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": null
+ },
+ {
+  "id": "90449c5b-c0a7-4496-a463-401b8b853342",
+  "title": "资格确认",
+  "region": "宁海县",
+  "parent": "0ca91954-8c17-4929-8299-70a0a1220355",
+  "headcount": null,
+  "start": {
+   "start": "2026/05/16T16:25:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": null
+ },
+ {
+  "id": "e8d656ea-9e99-4b83-99dc-75ee2e46ea7d",
+  "title": "首轮面试（面谈）",
+  "region": "宁海县",
+  "parent": "0ca91954-8c17-4929-8299-70a0a1220355",
+  "headcount": null,
+  "start": {
+   "start": "2026/05/16T16:25:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": null
+ },
+ {
+  "id": "619e73b3-7e47-47b6-9b36-62838bdaa814",
+  "title": "笔试",
+  "region": "象山县",
+  "parent": "e80f1e1a-377d-4263-95ff-3e29e2e010fd",
+  "headcount": null,
+  "start": {
+   "start": "2026/05/16T00:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": null
+ },
+ {
+  "id": "3dfa5b68-94a9-4e78-8e5a-19f1ee3265bf",
+  "title": "面试",
+  "region": "宁海县",
+  "parent": "0ca91954-8c17-4929-8299-70a0a1220355",
+  "headcount": null,
+  "start": {
+   "start": "2026/05/17T16:25:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": null
+ },
+ {
+  "id": "c897ae54-3edd-459a-ae91-d16daa5c597d",
+  "title": "笔试出分",
+  "region": "鄞州区",
+  "parent": "dc37a98f-44a5-44aa-813b-89a1d6266d9c",
+  "headcount": null,
+  "start": {
+   "start": "2026/05/19T22:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": "https://www.nbyz.gov.cn/col/col1229172679/art/2026/art_700691d3f6bb4c1ea5d0919af912ca23.html"
+ },
+ {
+  "id": "7293fbf5-ea22-45fe-8b0d-d533332b509e",
+  "title": "笔试出分",
+  "region": "镇海区",
+  "parent": "43dfa982-78aa-44c5-b5e9-01334a682c5d",
+  "headcount": null,
+  "start": {
+   "start": "2026/05/25T22:01:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": "https://www.zh.gov.cn/col/col1229822905/art/2026/art_656c8e9681ea4c709ccb2e6ba08b26fc.html"
+ },
+ {
+  "id": "47222221-f9fa-46fb-9ae8-bfb57295aa5d",
+  "title": "笔试出分",
+  "region": "象山县",
+  "parent": "e80f1e1a-377d-4263-95ff-3e29e2e010fd",
+  "headcount": null,
+  "start": {
+   "start": "2026/05/25T22:02:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": "https://www.xiangshan.gov.cn/col/col1229056720/art/2026/art_4df307166a8ab15d8ffa589182e8e464.html"
+ },
+ {
+  "id": "4ac8b34c-9da5-430f-bede-9bd80ae63e58",
+  "title": "资格复审",
+  "region": "鄞州区",
+  "parent": "dc37a98f-44a5-44aa-813b-89a1d6266d9c",
+  "headcount": null,
+  "start": {
+   "start": "2026/05/28T22:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": null
+ },
+ {
+  "id": "52f80f6b-5fd5-47cc-acd4-1c64c7dd9fb3",
+  "title": "资格复审",
+  "region": "镇海区",
+  "parent": "43dfa982-78aa-44c5-b5e9-01334a682c5d",
+  "headcount": null,
+  "start": {
+   "start": "2026/05/29T22:01:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": null
+ },
+ {
+  "id": "ad874277-6256-487a-b3d6-4b6f4617aeae",
+  "title": "面试",
+  "region": "鄞州区",
+  "parent": "dc37a98f-44a5-44aa-813b-89a1d6266d9c",
+  "headcount": null,
+  "start": {
+   "start": "2026/05/30T22:01:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": null
+ },
+ {
+  "id": "fa487e56-deb2-48eb-8850-a15eaae69495",
+  "title": "资格复审",
+  "region": "象山县",
+  "parent": "e80f1e1a-377d-4263-95ff-3e29e2e010fd",
+  "headcount": null,
+  "start": {
+   "start": "2026/05/30T17:16:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": null
+ },
+ {
+  "id": "84f03a3f-4afd-4f15-bf6e-3f91683354a1",
+  "title": "第一轮面试（面谈）",
+  "region": "象山县",
+  "parent": "e80f1e1a-377d-4263-95ff-3e29e2e010fd",
+  "headcount": null,
+  "start": {
+   "start": "2026/05/30T17:16:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": null
+ },
+ {
+  "id": "89307b23-709d-4367-a472-86770cf03a05",
+  "title": "面试",
+  "region": "镇海区",
+  "parent": "43dfa982-78aa-44c5-b5e9-01334a682c5d",
+  "headcount": null,
+  "start": {
+   "start": "2026/05/31T17:47:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": null
+ },
+ {
+  "id": "4c40312a-87b1-4d39-b98f-3002b154058e",
+  "title": "第二轮面试",
+  "region": "象山县",
+  "parent": "e80f1e1a-377d-4263-95ff-3e29e2e010fd",
+  "headcount": null,
+  "start": {
+   "start": "2026/05/31T17:16:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": null
+ },
+ {
+  "id": "4b648b81-1777-4f5a-b573-a8393af9ab8a",
+  "title": "面试",
+  "region": "",
+  "parent": "2504a7b4-a09d-4759-8b61-18f7d98021c7",
+  "headcount": null,
+  "start": null,
+  "end": null,
+  "url": null
+ },
+ {
+  "id": "0569a350-7630-4c8d-b77f-cc7a72417814",
+  "title": "报名时间",
+  "region": "",
+  "parent": "58480f8e-61a9-4b11-bf76-8b61959690c5",
+  "headcount": null,
+  "start": {
+   "start": "2026/06/08T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/06/12T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "e8861f8c-0f7b-4b8e-a0cf-a1adc11e2f71",
+  "title": "资格初审时间",
+  "region": "",
+  "parent": "58480f8e-61a9-4b11-bf76-8b61959690c5",
+  "headcount": null,
+  "start": {
+   "start": "2026/06/13T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/06/14T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "f9d279aa-0486-4ce9-b966-86264d320ffb",
+  "title": "查询并再次报名",
+  "region": "",
+  "parent": "58480f8e-61a9-4b11-bf76-8b61959690c5",
+  "headcount": null,
+  "start": {
+   "start": "2026/06/15T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/06/15T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "0ecce3ed-3acd-40af-a98c-144b620b13b2",
+  "title": "缴费确认时间",
+  "region": "",
+  "parent": "58480f8e-61a9-4b11-bf76-8b61959690c5",
+  "headcount": null,
+  "start": {
+   "start": "2026/06/16T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/06/18T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "03aec781-fca7-4fa4-a774-0a7c9a125ae3",
+  "title": "准考证打印",
+  "region": "",
+  "parent": "58480f8e-61a9-4b11-bf76-8b61959690c5",
+  "headcount": null,
+  "start": {
+   "start": "2026/06/25T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/06/27T09:30:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "39860e0b-02ab-4c42-afbb-b3c8d4802761",
+  "title": "笔试",
+  "region": "",
+  "parent": "58480f8e-61a9-4b11-bf76-8b61959690c5",
+  "headcount": null,
+  "start": {
+   "start": "2026/06/27T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/06/27T11:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "d4655fa5-214d-41d6-a4cf-a1d9d55ccc45",
+  "title": "笔试出分",
+  "region": "",
+  "parent": "58480f8e-61a9-4b11-bf76-8b61959690c5",
+  "headcount": null,
+  "start": {
+   "start": "2026/07/07T20:44:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": null
+ },
+ {
+  "id": "5de94c2b-35ab-46b0-acd2-e6d24f4167a8",
+  "title": "资格复审",
+  "region": "",
+  "parent": "58480f8e-61a9-4b11-bf76-8b61959690c5",
+  "headcount": null,
+  "start": {
+   "start": "2026/07/24T20:45:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": null
+ },
+ {
+  "id": "b841630c-7b26-431e-b511-8a8ea5b075de",
+  "title": "面试",
+  "region": "",
+  "parent": "58480f8e-61a9-4b11-bf76-8b61959690c5",
+  "headcount": null,
+  "start": {
+   "start": "2026/07/25T20:46:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": null
+ },
+ {
+  "id": "f3ca152e-2591-4334-8893-8104a0b7160f",
+  "title": "报名时间",
+  "region": "海曙区",
+  "parent": "30a246d8-59d0-4815-9a70-feac6075c849",
+  "headcount": null,
+  "start": {
+   "start": "2026/05/11T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/05/15T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "43c7c4c2-242e-4363-9a5d-9e954add9683",
+  "title": "资格初审时间",
+  "region": "海曙区",
+  "parent": "30a246d8-59d0-4815-9a70-feac6075c849",
+  "headcount": null,
+  "start": {
+   "start": "2026/05/16T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/05/22T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "a0a07360-03da-4e41-bfa2-f746879fc26f",
+  "title": "查询并再次报名",
+  "region": "海曙区",
+  "parent": "30a246d8-59d0-4815-9a70-feac6075c849",
+  "headcount": null,
+  "start": {
+   "start": "2026/05/25T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/05/25T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "4c5dd13d-b2f1-42d9-ab84-e1b011d78eb2",
+  "title": "缴费确认时间",
+  "region": "海曙区",
+  "parent": "30a246d8-59d0-4815-9a70-feac6075c849",
+  "headcount": null,
+  "start": {
+   "start": "2026/05/26T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/05/29T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "0f3b06a2-3138-41b6-8ea8-09e2bf08d651",
+  "title": "准考证打印",
+  "region": "海曙区",
+  "parent": "30a246d8-59d0-4815-9a70-feac6075c849",
+  "headcount": null,
+  "start": {
+   "start": "2026/06/24T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/06/27T09:30:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": "https://www.haishu.gov.cn/col/col1229099904/art/2026/art_6fe56a26808942958d92e7da24fd07ce.html"
+ },
+ {
+  "id": "58010e07-bc00-46aa-a405-eb19ae15e873",
+  "title": "笔试",
+  "region": "海曙区",
+  "parent": "30a246d8-59d0-4815-9a70-feac6075c849",
+  "headcount": null,
+  "start": {
+   "start": "2026/06/27T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/06/27T11:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "cd4a6fd1-f9f6-43ce-9839-943a10595d03",
+  "title": "笔试出分",
+  "region": "海曙区",
+  "parent": "30a246d8-59d0-4815-9a70-feac6075c849",
+  "headcount": null,
+  "start": {
+   "start": "2026/07/13T14:52:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": "https://www.haishu.gov.cn/col/col1229099904/art/2026/art_de0c6085bb1147d4a31d1e7d958a55a8.html"
+ },
+ {
+  "id": "7bc20e11-5b56-4867-a49f-cf7d53d7a4c3",
+  "title": "资格复审",
+  "region": "海曙区",
+  "parent": "30a246d8-59d0-4815-9a70-feac6075c849",
+  "headcount": null,
+  "start": {
+   "start": "2026/07/24T14:52:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": null
+ },
+ {
+  "id": "63fea194-5be1-434a-8cbe-1ea4cb8f5592",
+  "title": "面谈",
+  "region": "海曙区",
+  "parent": "30a246d8-59d0-4815-9a70-feac6075c849",
+  "headcount": null,
+  "start": {
+   "start": "2026/08/01T14:52:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": "https://www.haishu.gov.cn/col/col1229099904/art/2026/art_176c1b6444d34765bdd2b183203a2102.html"
+ },
+ {
+  "id": "d1fe5d1d-d9c7-4b53-9e37-578b8fc221c7",
+  "title": "面试",
+  "region": "海曙区",
+  "parent": "30a246d8-59d0-4815-9a70-feac6075c849",
+  "headcount": null,
+  "start": {
+   "start": "2026/08/02T18:23:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": null,
+  "url": null
+ },
+ {
+  "id": "92c34e3a-dc04-486b-b492-9c58813a4b0e",
+  "title": "报名时间",
+  "region": "鄞州区",
+  "parent": "676df014-25c5-4e51-a242-852705dab5b6",
+  "headcount": null,
+  "start": {
+   "start": "2026/07/27T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/07/31T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "f5aa196a-1773-44ce-8bc0-5150a99cb684",
+  "title": "资格初审时间",
+  "region": "鄞州区",
+  "parent": "676df014-25c5-4e51-a242-852705dab5b6",
+  "headcount": null,
+  "start": {
+   "start": "2026/08/03T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/08/04T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "72feb28d-b9cc-4b07-8e8e-09d8e92cb944",
+  "title": "查询并再次报名",
+  "region": "鄞州区",
+  "parent": "676df014-25c5-4e51-a242-852705dab5b6",
+  "headcount": null,
+  "start": {
+   "start": "2026/08/05T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/08/05T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ },
+ {
+  "id": "42da7d2d-a5cb-4a5a-a307-be9162831fcd",
+  "title": "缴费确认时间",
+  "region": "鄞州区",
+  "parent": "676df014-25c5-4e51-a242-852705dab5b6",
+  "headcount": null,
+  "start": {
+   "start": "2026/08/06T09:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "end": {
+   "start": "2026/08/07T16:00:00",
+   "end": null,
+   "time_zone": null
+  },
+  "url": null
+ }
+]
