@@ -23,12 +23,21 @@ from datetime import datetime, timedelta, timezone
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 
+# 监控项目脚本目录（抓取器+提取器在那儿）
+MONITOR_SCRIPTS = os.environ.get(
+    "NBO_MONITOR_SCRIPTS",
+    os.path.expanduser("~/.hermes/projects/1-ningbo-exam-monitor/scripts"),
+)
+if os.path.isdir(MONITOR_SCRIPTS):
+    sys.path.insert(0, MONITOR_SCRIPTS)
+
 CST = timezone(timedelta(hours=8))
 FLOWUS_JSON = os.path.join(HERE, "data", "flowus_2026.json")
 
 # 环节名归一（FlowUs 用的说法不一：资格初审/资格初审时间/资格审核时间…）
 STAGE_MAP = {
-    "报名时间": "报名", "报名": "报名", "现场报名": "现场报名",
+    # 抓取器用 "报名开始"，FlowUs 用 "报名时间"/"报名" —— 必须归一到同一个"报名"
+    "报名时间": "报名", "报名": "报名", "报名开始": "报名", "现场报名": "现场报名",
     "资格初审": "资格初审", "资格初审时间": "资格初审", "资格审核时间": "资格初审",
     "查询并再次报名": "再次报名", "再次报名": "再次报名",
     "缴费确认时间": "缴费确认", "缴费确认": "缴费确认", "缴费": "缴费确认",
@@ -157,12 +166,17 @@ def events_from_scraper(year: int, days: int):
     for ev in raw:
         if ev["start"].year != year:
             continue
+        st_norm = STAGE_MAP.get(ev["stage"], ev["stage"])
+        # 标题里的环节名同步换成归一名，避免同一日历里"报名"和"报名开始"混排
+        title = re.sub(rf"^【[^】]+】{re.escape(ev['stage'])}｜",
+                       lambda m: m.group(0).replace(ev["stage"], st_norm),
+                       ev["title"])
         out.append({
             "uid_src": f"scraper|{ev['region']}|{ev['full_title']}|{ev['stage']}",
-            "title": ev["title"],
+            "title": title,
             "start": ev["start"], "end": ev["end"], "all_day": ev["all_day"],
             "desc": ev["desc"], "alarm": ev["alarm"],
-            "region": ev["region"], "stage": ev["stage"], "src": "scraper",
+            "region": ev["region"], "stage": st_norm, "src": "scraper",
             # 抓取器无场次ID，用完整标题占位（跨源匹配靠 merge 的 36h + 同名兜底，见 dedup_cross_source）
             "main_id": ev.get("full_title", ""), "main_title": ev.get("full_title", ""),
             "url": ev.get("url", ""),
@@ -197,7 +211,10 @@ def merge(events):
             flowus_idx.setdefault(k, 0)
             flowus_idx[k] += 1
         else:
-            # 跨源：同场次同名且时间接近 → 判为同一事件，FlowUs 优先，跳过抓取器版本
+            # 跨源判重：只按 (地区, 环节) + 36h 窗口，不看 main_id
+            # 原因：FlowUs 的场次ID是 UUID，抓取器没有ID（用完整标题），
+            #         两者无法直接比对；场次差异由时间窗口自然区分
+            #         （镇海两场考试报名日相同、笔试相差一月，窗口不会误判）
             dup = any(m["src"] == "flowus" and m["region"] == e["region"]
                       and m["stage"] == e["stage"]
                       and abs((m["start"] - e["start"]).total_seconds()) <= 36 * 3600

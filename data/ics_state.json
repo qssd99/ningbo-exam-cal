@@ -167,6 +167,20 @@
   "region": "镇海区",
   "start": "20260409T123800"
  },
+ "81de8458ec1c04f9ff025d640c7a659a11b59de7@ningbo-exam-cal": {
+  "fp": "d188c67360326b7ecbf4f18b8e88f1fb4da13b70",
+  "seq": 1,
+  "stage": "报名",
+  "region": "宁海县",
+  "start": "20260410T080000"
+ },
+ "0d3695ed7b5ff34cb94dcb543f1798fc6ca8109c@ningbo-exam-cal": {
+  "fp": "03602fdf5637058f104ce6e8a13e33a8f9ad3c5a",
+  "seq": 1,
+  "stage": "资格初审",
+  "region": "宁海县",
+  "start": "20260411T080000"
+ },
  "9bb223e84b309fcb5b7785d31f4d8a8aef89a0e1@ningbo-exam-cal": {
   "fp": "1a0f165576e782d5a1a8d6517e3133b5384bec5f",
   "seq": 1,
@@ -517,6 +531,20 @@
   "region": "市属",
   "start": "20260625T090000"
  },
+ "8ac128196636a12a4e37c515f6cc7554a934abc2@ningbo-exam-cal": {
+  "fp": "4bc51433272560e10d5b5d597eb9905827f31d28",
+  "seq": 1,
+  "stage": "报名",
+  "region": "象山县",
+  "start": "20260625T090000"
+ },
+ "1c59af01ad75a83cb5f105d864bf1127651bd7f6@ningbo-exam-cal": {
+  "fp": "0319af01201e2dca39a5884681a1c70c0d86d305",
+  "seq": 1,
+  "stage": "资格初审",
+  "region": "象山县",
+  "start": "20260625T090000"
+ },
  "8b4cb4e9e3d378c6e5a519491be89f4ff3bb7be1@ningbo-exam-cal": {
   "fp": "8a2373e865cf165463fcdffe3f3376c466e4c685",
   "seq": 1,
@@ -531,12 +559,40 @@
   "region": "海曙区",
   "start": "20260627T090000"
  },
+ "920eea7a560c9012f7335dfb2ef0985833b6c6e3@ningbo-exam-cal": {
+  "fp": "1ef3d0d7f65e951bd9665984bb05850456f2cbb9",
+  "seq": 1,
+  "stage": "再次报名",
+  "region": "象山县",
+  "start": "20260705T090000"
+ },
+ "ca16340b8c2103853a8ba719fdfb208de30ce062@ningbo-exam-cal": {
+  "fp": "b5421cf189424870c6ea113aa0682ece4b6c4a54",
+  "seq": 1,
+  "stage": "缴费确认",
+  "region": "象山县",
+  "start": "20260706T090000"
+ },
  "58429ef438f65bfc2ca60031d9ffd2bb2666fdbf@ningbo-exam-cal": {
   "fp": "edbad6999ebfd23c8683f7fecbdd9965ffff7e47",
   "seq": 1,
   "stage": "笔试出分",
   "region": "市属",
   "start": "20260707T204400"
+ },
+ "6bccc10b10f0410d7e502538313eabf8431d27d9@ningbo-exam-cal": {
+  "fp": "e844469fa941373880f6a201514637eb94f27672",
+  "seq": 1,
+  "stage": "准考证",
+  "region": "象山县",
+  "start": "20260709T090000"
+ },
+ "b87f2a990f6b3b7433dc9a997f288375a352631a@ningbo-exam-cal": {
+  "fp": "24a501285cd92d15e5fee86c557f163e7ab8ec4a",
+  "seq": 1,
+  "stage": "笔试",
+  "region": "象山县",
+  "start": "20260711T000000"
  },
  "7319838995a83345447291126b1a2922cb948788@ningbo-exam-cal": {
   "fp": "d094bc9aaa0453b3807731840d42f64b6bb4b06e",
@@ -607,5 +663,19 @@
   "stage": "缴费确认",
   "region": "鄞州区",
   "start": "20260806T090000"
+ },
+ "1ed77018f9bcf8836bbb4f44c0a4305bfa124cf2@ningbo-exam-cal": {
+  "fp": "47749340c3f0295348632ee0e465344a208abb10",
+  "seq": 1,
+  "stage": "准考证",
+  "region": "鄞州区",
+  "start": "20260813T090000"
+ },
+ "d548146d35d4ef559c5b78923d38d9f785d0bab7@ningbo-exam-cal": {
+  "fp": "f5d68f8907e446ccf7bd02272322c28a9b29189b",
+  "seq": 1,
+  "stage": "笔试",
+  "region": "鄞州区",
+  "start": "20260815T000000"
  }
 }
