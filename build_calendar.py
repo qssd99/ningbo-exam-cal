@@ -200,26 +200,29 @@ def merge(events):
     def key(e):
         return (e["region"], e.get("main_id") or e["main_title"], e["stage"])
 
-    events = sorted(events, key=lambda e: (e["start"], e["src"]))
+    def is_dup_cross(e, merged):
+        """跨源判重：同 (地区, 环节) 且时间接近 → 已由另一源收录。
+        不看 main_id：FlowUs 场次ID是 UUID、抓取器没有，两者无法比对；
+        场次差异由时间窗口区分（镇海两场考试报名日相同、笔试相差一月，窗口不会误判）。"""
+        return any(m["src"] != e["src"] and m["region"] == e["region"]
+                   and m["stage"] == e["stage"]
+                   and abs((m["start"] - e["start"]).total_seconds()) <= 36 * 3600
+                   for m in merged)
+
+    # 排序必须让 flowus 全部优先入列，不能只按 start：
+    # 抓取器的笔试/报名常是「全天事件」(00:00)，FlowUs 是定时事件(如 09:00)，
+    # 只按 start 排序会让全天事件抢先入列 → 同一环节重复两条。
+    # 主键用源优先级（flowus=0 优先），次键才用时间。
+    events = sorted(events, key=lambda e: (0 if e["src"] == "flowus" else 1, e["start"]))
     merged = []
-    flowus_idx = {}   # key → 该场次已收录的 flowus 环节数（用于跨源判重）
     for e in events:
-        k = key(e)
         if e["src"] == "flowus":
-            # 同源：同名直接都保留（不同环节可能同名同月）
-            merged.append(e)
-            flowus_idx.setdefault(k, 0)
-            flowus_idx[k] += 1
+            # 同源不去重（同场次同名可能是「首轮面试」和「面试」两个环节），
+            # 但若另一源已收录同一环节，则丢弃 flowus 这条
+            if not is_dup_cross(e, merged):
+                merged.append(e)
         else:
-            # 跨源判重：只按 (地区, 环节) + 36h 窗口，不看 main_id
-            # 原因：FlowUs 的场次ID是 UUID，抓取器没有ID（用完整标题），
-            #         两者无法直接比对；场次差异由时间窗口自然区分
-            #         （镇海两场考试报名日相同、笔试相差一月，窗口不会误判）
-            dup = any(m["src"] == "flowus" and m["region"] == e["region"]
-                      and m["stage"] == e["stage"]
-                      and abs((m["start"] - e["start"]).total_seconds()) <= 36 * 3600
-                      for m in merged)
-            if not dup:
+            if not is_dup_cross(e, merged):
                 merged.append(e)
     return merged
 
