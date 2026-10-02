@@ -21,45 +21,100 @@ function displayRange(event) {
   if (!event.DTSTART.includes('T')) return displayDate(event.DTSTART); // DATE end is exclusive; do not display it as an inclusive deadline.
   return displayDate(event.DTSTART) + (event.DTEND && event.DTEND !== event.DTSTART ? ' — ' + displayDate(event.DTEND) : '');
 }
-async function loadCalendar() {
-  const status = document.getElementById('calendar-status');
-  const container = document.getElementById('calendar-events');
-  try {
-    const response = await fetch('ningbo-exam.ics', {cache: 'no-cache'});
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const text = await response.text();
-    if (!text.includes('BEGIN:VCALENDAR')) throw new Error('不是日历文件');
-    const events = parseCalendar(text);
-    status.textContent = `2026 年已收录 ${events.length} 个时间节点；按开始月份展示，全部时间为北京时间。`;
-    const groups = new Map();
-    for (const event of events) {
-      const month = event.DTSTART.slice(0, 6);
-      if (!groups.has(month)) groups.set(month, []);
-      groups.get(month).push(event);
-    }
-    container.replaceChildren();
-    for (const [month, rows] of groups) {
-      const details = document.createElement('details');
-      details.open = true;
-      const summary = document.createElement('summary');
-      summary.textContent = `${month.slice(0,4)}年${Number(month.slice(4))}月 · ${rows.length}个节点`;
-      details.append(summary);
-      for (const event of rows) {
-        const row = document.createElement('div'); row.className = 'calendar-event';
-        const title = document.createElement('div'); title.className = 'event-title'; title.textContent = event.SUMMARY;
-        const date = document.createElement('div'); date.className = 'event-date'; date.textContent = displayRange(event);
-        row.append(title, date);
-        if (event.URL && /^https?:\/\//i.test(event.URL)) {
-          const link = document.createElement('a'); link.href = event.URL; link.textContent = '公告原文'; link.target = '_blank'; link.rel = 'noopener noreferrer'; row.append(link);
-        }
-        details.append(row);
-      }
-      container.append(details);
-    }
-  } catch (error) {
-    status.textContent = '日历预览加载失败，请刷新页面或使用上方订阅文件。';
-    console.error('日历预览加载失败', error);
+function instant(value) {
+  if (!value) return NaN;
+  const time = value.includes('T') ? `${value.slice(9,11)}:${value.slice(11,13)}:${value.slice(13,15)}` : '00:00:00';
+  return Date.parse(`${value.slice(0,4)}-${value.slice(4,6)}-${value.slice(6,8)}T${time}+08:00`);
+}
+function bounds(event) {
+  const start = instant(event.DTSTART);
+  const end = event.DTEND ? instant(event.DTEND) : start + (event.DTSTART.includes('T') ? 0 : 86400000);
+  return {start, end, exclusive: !event.DTSTART.includes('T')};
+}
+function isActive(event, now) {
+  const b = bounds(event), t = +now;
+  return b.start <= t && (b.exclusive ? t < b.end : t <= b.end);
+}
+function label(event) {
+  const match = event.SUMMARY.match(/^【(.+?)】(.+?)｜(.+)$/);
+  return match ? {region:match[1], stage:match[2], title:match[3]} : {region:'其他',stage:'时间节点',title:event.SUMMARY};
+}
+function buildView(events, now = new Date()) {
+  const localDay = new Date(+now + 8*3600000).toISOString().slice(0,10);
+  const cutoff = Date.parse(`${localDay}T00:00:00+08:00`) - 15*86400000;
+  const all = events.map(e => ({...e, ...label(e)}));
+  const recent = all.filter(e => bounds(e).end >= cutoff).sort((a,b) => {
+    const category = e => isActive(e,now) ? 0 : bounds(e).start > +now ? 1 : 2;
+    const c = category(a)-category(b);
+    return c || (category(a) === 2 ? bounds(b).start-bounds(a).start : bounds(a).start-bounds(b).start);
+  });
+  const groups = new Map();
+  for (const e of all) {
+    // Never combine distinct titled exams just because their dates or regions coincide.
+    const key = JSON.stringify([e.region,e.title,e.URL || '']);
+    if (!groups.has(key)) groups.set(key,{key,title:e.title,region:e.region,events:[]});
+    groups.get(key).events.push(e);
+  }
+  const exams = [...groups.values()].map(g => {
+    g.events.sort((a,b)=>bounds(a).start-bounds(b).start);
+    const ongoing = g.events.filter(e=>isActive(e,now));
+    const written = g.events.filter(e=>e.stage==='笔试');
+    g.featured = ongoing.length ? ongoing : written;
+    g.active = ongoing.length>0;
+    g.next = g.events.filter(e=>bounds(e).start>+now)[0];
+    g.latest = Math.max(...g.events.map(e=>bounds(e).end));
+    g.status = g.active ? '进行中' : g.next ? '待进行' : '已收录节点均已结束';
+    return g;
+  }).sort((a,b)=>{
+    const cat = g=>g.active?0:g.next?1:2;
+    return cat(a)-cat(b) || (cat(a)===2 ? b.latest-a.latest : (a.next?bounds(a.next).start:a.latest)-(b.next?bounds(b.next).start:b.latest));
+  });
+  return {recent,exams};
+}
+function node(tag, cls, text) {
+  const e=document.createElement(tag); if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e;
+}
+function eventRow(event, now, withExam=false) {
+  const row=node('div','timeline-row');
+  const title=node('div','node-title',`${isActive(event,now)?'进行中 · ':''}${event.stage}`);
+  row.append(title,node('div','event-date',displayRange(event)));
+  if(withExam) row.append(node('div','event-exam',`【${event.region}】${event.title}`));
+  return row;
+}
+function renderCalendar(events, now = new Date()) {
+  const model=buildView(events,now);
+  const status=document.getElementById('calendar-status');
+  status.textContent=`2026年 · ${model.exams.length}场已收录考试 · ${events.length}个节点 · 北京时间`;
+  const recent=document.getElementById('recent-events');recent.replaceChildren();
+  if(!model.recent.length) recent.append(node('p','empty','过去15天及未来暂无已收录节点'));
+  else {
+    const first=node('div');model.recent.slice(0,5).forEach(e=>first.append(eventRow(e,now,true)));recent.append(first);
+    if(model.recent.length>5){const more=node('details','recent-more');more.append(node('summary','',`查看其余${model.recent.length-5}个近期节点`));model.recent.slice(5).forEach(e=>more.append(eventRow(e,now,true)));recent.append(more);}
+  }
+  const container=document.getElementById('calendar-events');container.replaceChildren();
+  for(const exam of model.exams){
+    const card=node('section','exam-card');
+    const header=node('div','card-header');header.append(node('span','region',exam.region),node('span',exam.active?'badge active':'badge',exam.status));card.append(header);
+    card.append(node('div','exam-title',exam.title));
+    const featured=node('div','featured');
+    if(exam.featured.length)exam.featured.forEach(e=>featured.append(eventRow(e,now)));
+    else featured.append(node('div','event-date','笔试日期未收录'));
+    card.append(featured);
+    const details=node('details','exam-details');details.append(node('summary','',`完整时间线 · ${exam.events.length}个节点`));
+    exam.events.forEach(e=>details.append(eventRow(e,now)));card.append(details);
+    const url=exam.events.find(e=>/^https?:\/\//i.test(e.URL||''));
+    if(url){const a=node('a','source-link','公告原文');a.href=url.URL;a.target='_blank';a.rel='noopener noreferrer';card.append(a);}
+    container.append(card);
   }
 }
-if (typeof document !== 'undefined') loadCalendar();
-if (typeof module !== 'undefined') module.exports = {parseCalendar, displayDate, displayRange};
+async function loadCalendar() {
+  try {
+    const response=await fetch('ningbo-exam.ics',{cache:'no-cache'});if(!response.ok)throw new Error(`HTTP ${response.status}`);
+    const text=await response.text();if(!text.includes('BEGIN:VCALENDAR'))throw new Error('不是日历文件');
+    const events=parseCalendar(text);renderCalendar(events);
+    // Re-evaluate ongoing nodes while the page remains open.
+    setInterval(()=>{if(!document.querySelector('details[open]'))renderCalendar(events);},60000);
+  } catch(error){document.getElementById('calendar-status').textContent='日历加载失败，请刷新页面或下载订阅文件。';console.error(error);}
+}
+if(typeof document!=='undefined')loadCalendar();
+if(typeof module!=='undefined')module.exports={parseCalendar,displayDate,displayRange,buildView,isActive};

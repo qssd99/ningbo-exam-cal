@@ -3,29 +3,21 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>宁波事业编考试日历</title>
 <style>
-body{font-family:-apple-system,"PingFang SC",sans-serif;max-width:680px;margin:40px auto;padding:0 20px;line-height:1.7;color:#222}
-h1{font-size:22px}code{background:#f4f4f4;padding:2px 6px;border-radius:4px;font-size:13px}
-.box{background:#f8f9fa;border:1px solid #e9ecef;border-radius:8px;padding:14px 16px;margin:16px 0}
-a{color:#0b6bcb}li{margin:6px 0}
-details{border:1px solid #e9ecef;border-radius:8px;margin:12px 0;overflow:hidden}summary{padding:10px 14px;background:#f8f9fa;font-weight:600;cursor:pointer}.calendar-event{padding:10px 14px;border-top:1px solid #eee}.event-title{font-size:14px}.event-date{font-size:13px;color:#555}.calendar-event>a{font-size:12px}h2{font-size:18px}
+*{box-sizing:border-box}body{font-family:-apple-system,"PingFang SC",sans-serif;max-width:680px;margin:24px auto;padding:0 16px;line-height:1.5;color:#222;background:#fafafa}h1{font-size:22px;margin:0 0 6px}h2{font-size:17px;margin:20px 0 8px}p{font-size:13px;color:#666;margin:6px 0}a{color:#0b6bcb}summary{cursor:pointer;font-size:13px;color:#555}li{margin:8px 0}.subscription{margin:16px 0;border:1px solid #e6e6e6;border-radius:8px;padding:10px 12px;background:white}.subscription a{overflow-wrap:anywhere}.subscription ul{font-size:13px;padding-left:18px}.exam-card{padding:12px;background:white;border:1px solid #e6e6e6;border-radius:8px;margin:10px 0}.card-header{display:flex;justify-content:space-between;gap:8px;align-items:center}.region,.badge{font-size:12px;padding:2px 5px;border-radius:4px;background:#f1f3f5;color:#666}.region{color:#285477;background:#eef4fa}.active{color:#167a40;background:#eaf7ee}.exam-title{font-size:15px;font-weight:600;margin:7px 0}.timeline-row{padding:7px 0}.node-title{font-size:13px;font-weight:500}.event-date{font-size:12px;color:#666}.event-exam{font-size:12px;color:#555;margin-top:3px}.featured .timeline-row{padding:2px 0}.exam-details{margin-top:9px;border-top:1px solid #eee;padding-top:8px}.exam-details .timeline-row{border-bottom:1px solid #f2f2f2}.source-link{display:inline-block;font-size:12px;margin-top:8px}.empty{background:#f0f2f4;border-radius:6px;padding:10px 12px}.recent-more{padding:8px 0}#recent-events>.timeline-row,#recent-events>div>.timeline-row{padding:9px 0;border-bottom:1px solid #eaeaea}.note{font-size:12px;color:#888}
 </style></head><body>
 <h1>宁波事业编考试日历</h1>
-<p>2026 年度宁波各区县事业单位公开招聘/选聘考试时间节点，共 <b>100</b> 个事件，数据来源为 FlowUs【归档】2026宁波事业编已结束考试（10场考试/92个环节，人工整理）+ 公告自动抓取补漏。</p>
-<div class="box">
-<b>订阅地址</b><br>
-<a href="ningbo-exam.ics">https://qssd99.github.io/ningbo-exam-cal/ningbo-exam.ics</a>
-</div>
-<h2>怎么订阅</h2>
+<p id="calendar-status" role="status">正在加载2026年考试日历……</p>
+<details class="subscription"><summary>订阅到手机日历 · 查看说明</summary>
+<p><b>订阅地址</b><br><a href="ningbo-exam.ics">https://qssd99.github.io/ningbo-exam-cal/ningbo-exam.ics</a></p>
 <ul>
-<li><b>iPhone</b>：设置 → 日历 → 账户 → 添加日历账户 → 订阅日历 → 粘贴上面的地址</li>
-<li><b>Android（Google 日历）</b>：设置 → 其他日历 → 从 URL 添加</li>
-<li><b>Android（原生日历）</b>：多数不支持订阅 URL，需用 Google 日历，或从本页下载 .ics 手动导入</li>
-</ul>
-<p class="box">⚠️ <b>以官方公告原文为准</b>。新公告经人工确认后才更新日历，不自动全量发布。手机显示更新可能有延迟，请同时关注公告。</p>
-<h2>考试日历</h2>
-<p id="calendar-status" role="status">正在加载2026年考试时间节点……</p>
-<p>下方直接读取本页的订阅文件，保留已结束考试。收录范围不等于全市全部考试；未收录不代表当地没有考试。</p>
+<li><b>iPhone</b>：在日历中添加订阅日历，粘贴上面的地址。</li>
+<li><b>Android</b>：是否支持网址订阅取决于日历应用；不支持时可选择支持订阅的应用，或下载 .ics 手动导入（导入不会持续同步）。</li>
+</ul><p>新公告经人工确认后才更新。手机刷新可能延迟，以官方公告原文为准。</p></details>
+<h2>近期事项</h2><p class="note">过去15天至未来全部节点，进行中的优先；默认展示5条。</p>
+<div id="recent-events"></div>
+<h2>按考试查看</h2><p class="note">正在进行的节点优先显示，否则显示笔试日期；完整时间线点击展开。</p>
 <div id="calendar-events"></div>
+<p class="note">数据来自FlowUs人工时间线及公告补充。保留历史节点；未收录不代表当地没有考试，节点结束也不代表招聘流程全部结束。</p>
 <noscript>请开启 JavaScript 查看日历，或下载上方 .ics 文件。</noscript>
-<script src="calendar-preview.js"></script>
+<script src="calendar-preview.js?v=cards2"></script>
 </body></html>
