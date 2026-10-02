@@ -7,6 +7,7 @@ body{font-family:-apple-system,"PingFang SC",sans-serif;max-width:680px;margin:4
 h1{font-size:22px}code{background:#f4f4f4;padding:2px 6px;border-radius:4px;font-size:13px}
 .box{background:#f8f9fa;border:1px solid #e9ecef;border-radius:8px;padding:14px 16px;margin:16px 0}
 a{color:#0b6bcb}li{margin:6px 0}
+details{border:1px solid #e9ecef;border-radius:8px;margin:12px 0;overflow:hidden}summary{padding:10px 14px;background:#f8f9fa;font-weight:600;cursor:pointer}.calendar-event{padding:10px 14px;border-top:1px solid #eee}.event-title{font-size:14px}.event-date{font-size:13px;color:#555}.calendar-event>a{font-size:12px}h2{font-size:18px}
 </style></head><body>
 <h1>宁波事业编考试日历</h1>
 <p>2026 年度宁波各区县事业单位公开招聘/选聘考试时间节点，共 <b>100</b> 个事件，数据来源为 FlowUs【归档】2026宁波事业编已结束考试（10场考试/92个环节，人工整理）+ 公告自动抓取补漏。</p>
@@ -20,7 +21,11 @@ a{color:#0b6bcb}li{margin:6px 0}
 <li><b>Android（Google 日历）</b>：设置 → 其他日历 → 从 URL 添加</li>
 <li><b>Android（原生日历）</b>：多数不支持订阅 URL，需用 Google 日历，或从本页下载 .ics 手动导入</li>
 </ul>
-<p class="box">⚠️ 本日历由公告自动生成，<b>以官方公告原文为准</b>。订阅端刷新频率由手机系统决定，通常一天一次或更慢。</p>
-<h2>覆盖范围</h2>
-<p>2026 年共 <b>13</b> 场考试：市属 2、鄞州 2、镇海 2、海曙 1、高新 1、宁海 2、象山 2，另含宁海县委党校、象山第二批教师等单招。共 97 个时间节点。慈溪市、余姚市、江北区、奉化区、北仑区、前湾新区 2026 年无事业编考试记录。</p>
+<p class="box">⚠️ <b>以官方公告原文为准</b>。新公告经人工确认后才更新日历，不自动全量发布。手机显示更新可能有延迟，请同时关注公告。</p>
+<h2>考试日历</h2>
+<p id="calendar-status" role="status">正在加载2026年考试时间节点……</p>
+<p>下方直接读取本页的订阅文件，保留已结束考试。收录范围不等于全市全部考试；未收录不代表当地没有考试。</p>
+<div id="calendar-events"></div>
+<noscript>请开启 JavaScript 查看日历，或下载上方 .ics 文件。</noscript>
+<script src="calendar-preview.js"></script>
 </body></html>
