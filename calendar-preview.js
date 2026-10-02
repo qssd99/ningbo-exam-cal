@@ -1,4 +1,6 @@
 'use strict';
+const FLOWUS_HISTORY = new Set(["[\"鄞州区\",\"鄞州区815公告\"]", "[\"市属\",\"市属627公告\"]", "[\"海曙区\",\"海曙区人才引进公告\"]", "[\"象山县\",\"象山县人才引进516公告\"]", "[\"鄞州区\",\"鄞州区425公告\"]", "[\"宁海县\",\"宁海县人才引进425公告\"]", "[\"镇海区\",\"镇海区510公告\"]", "[\"镇海区\",\"镇海区人才引进4.8公告\"]", "[\"市属\",\"市属411公告\"]", "[\"高新区\",\"高新区人才引进411公告\"]"]);
+
 function parseCalendar(text) {
   const unfolded = text.replace(/\r?\n[ \t]/g, '');
   const unescape = value => value.replace(/\\([nN,;\\])/g, (_, c) => /[nN]/.test(c) ? '\n' : c);
@@ -69,7 +71,9 @@ function buildView(events, now = new Date()) {
     const cat = g=>g.active?0:g.next?1:2;
     return cat(a)-cat(b) || (cat(a)===2 ? b.latest-a.latest : (a.next?bounds(a.next).start:a.latest)-(b.next?bounds(b.next).start:b.latest));
   });
-  return {recent,exams};
+  // Historical cards follow the ten curated FlowUs exams; current/future exams remain visible.
+  const visibleExams = exams.filter(g => g.active || g.next || FLOWUS_HISTORY.has(JSON.stringify([g.region,g.title])));
+  return {recent,exams:visibleExams};
 }
 function node(tag, cls, text) {
   const e=document.createElement(tag); if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e;
@@ -84,7 +88,7 @@ function eventRow(event, now, withExam=false) {
 function renderCalendar(events, now = new Date()) {
   const model=buildView(events,now);
   const status=document.getElementById('calendar-status');
-  status.textContent=`2026年 · ${model.exams.length}场已收录考试 · ${events.length}个节点 · 北京时间`;
+  status.textContent=`2026年 · ${model.exams.length}场已收录考试 · ${model.exams.reduce((n,g)=>n+g.events.length,0)}个展示节点 · 北京时间`;
   const recent=document.getElementById('recent-events');recent.replaceChildren();
   if(!model.recent.length) recent.append(node('p','empty','过去15天及未来暂无已收录节点'));
   else {
